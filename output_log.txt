@@ -1,0 +1,1650 @@
+Query 1 returned 1 rows
+DataFrame()
++------------------+
+| c_customer_id    |
++------------------+
+| AAAAAAAAAAADAAAA |
+| AAAAAAAAAAAFAAAA |
+| AAAAAAAAAAAFBAAA |
+| AAAAAAAAAAAKAAAA |
+| AAAAAAAAAAANAAAA |
+| AAAAAAAAAABIBAAA |
+| AAAAAAAAAABLAAAA |
+| AAAAAAAAAABPAAAA |
+| AAAAAAAAAABPAAAA |
+| AAAAAAAAAACFBAAA |
+| AAAAAAAAAACPAAAA |
+| AAAAAAAAAADFBAAA |
+| AAAAAAAAAADOAAAA |
+| AAAAAAAAAADPAAAA |
+| AAAAAAAAAAEAAAAA |
+| AAAAAAAAAAEHBAAA |
+| AAAAAAAAAAEJAAAA |
+| AAAAAAAAAAFABAAA |
+| AAAAAAAAAAFABAAA |
+| AAAAAAAAAAFBBAAA |
++------------------+
+Query 2 returned 1 rows
+DataFrame()
++-------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+
+| d_week_seq1 | round(y.sun_sales1 / z.sun_sales2,Int64(2)) | round(y.mon_sales1 / z.mon_sales2,Int64(2)) | round(y.tue_sales1 / z.tue_sales2,Int64(2)) | round(y.wed_sales1 / z.wed_sales2,Int64(2)) | round(y.thu_sales1 / z.thu_sales2,Int64(2)) | round(y.fri_sales1 / z.fri_sales2,Int64(2)) | round(y.sat_sales1 / z.sat_sales2,Int64(2)) |
++-------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
+| 5218        | 2.4                                         | 1.24                                        | 3.83                                        | 2.86                                        | 3.3                                         | 3.69                                        | 1.76                                        |
++-------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+---------------------------------------------+
+Query 3 returned 1 rows
+DataFrame()
++--------+----------+--------------------+-----------+
+| d_year | brand_id | brand              | sum_agg   |
++--------+----------+--------------------+-----------+
+| 1998   | 5004001  | edu packscholar #1 | -2450.80  |
+| 1998   | 7003004  | exportibrand #4    | -4183.98  |
+| 1998   | 10016001 | corpamalgamalg #1  | -4470.32  |
+| 1998   | 3001002  | amalgexporti #2    | -6075.72  |
+| 1998   | 3003001  | exportiexporti #1  | -6574.20  |
+| 1998   | 1004002  | edu packamalg #2   | -10940.43 |
+| 1998   | 3004001  | edu packexporti #1 | -12805.12 |
+| 1998   | 8001003  | amalgnameless #3   | -13992.36 |
+| 1999   | 5004001  | edu packscholar #1 | -2641.05  |
+| 1999   | 10016001 | corpamalgamalg #1  | -2990.37  |
+| 1999   | 3003001  | exportiexporti #1  | -10174.87 |
+| 1999   | 7003004  | exportibrand #4    | -10239.06 |
+| 1999   | 3004001  | edu packexporti #1 | -10356.80 |
+| 1999   | 1004002  | edu packamalg #2   | -11775.66 |
+| 1999   | 3001002  | amalgexporti #2    | -11967.13 |
+| 1999   | 8001003  | amalgnameless #3   | -15050.73 |
+| 2000   | 7003004  | exportibrand #4    | -3479.66  |
+| 2000   | 1004002  | edu packamalg #2   | -5274.56  |
+| 2000   | 6014004  | edu packbrand #4   | -7353.84  |
+| 2000   | 10016001 | corpamalgamalg #1  | -7513.20  |
++--------+----------+--------------------+-----------+
+Query 4 returned 1 rows
+DataFrame()
++------------------+---------------------+--------------------+-------------------------------------+
+| customer_id      | customer_first_name | customer_last_name | customer_email_address              |
++------------------+---------------------+--------------------+-------------------------------------+
+| AAAAAAAAAAACBAAA | Erwin               | Terry              | Erwin.Terry@Ygg06VPSU2eg.org        |
+| AAAAAAAAAAAFBAAA | Brandy              | Perez              | Brandy.Perez@s3bsRM0MGA.com         |
+| AAAAAAAAAAAPAAAA | Robert              | Cox                | Robert.Cox@PxitOM4IJJXJv.org        |
+| AAAAAAAAAABBBAAA | Joyce               | Pruett             | Joyce.Pruett@SYsEF3oRo.org          |
+| AAAAAAAAAABCBAAA | Lawrence            | Sanchez            | Lawrence.Sanchez@KgvHQFhjkcK.org    |
+| AAAAAAAAAABEAAAA | Mark                | Beardsley          | Mark.Beardsley@aOqHghQ.com          |
+| AAAAAAAAAABFAAAA | Crystal             | Dukes              | Crystal.Dukes@R.org                 |
+| AAAAAAAAAABHBAAA | Lawrence            | Holmes             | Lawrence.Holmes@jf0O7bSqhekI.org    |
+| AAAAAAAAAABJAAAA | Kristopher          | Stone              | Kristopher.Stone@vU0B95O5R3Ln1O.edu |
+| AAAAAAAAAABMAAAA | Richard             | Nunez              | Richard.Nunez@4pMnX3Z1TU.edu        |
+| AAAAAAAAAABOAAAA | Kent                | Byrd               | Kent.Byrd@lvgatI6.edu               |
+| AAAAAAAAAACCAAAA | Jennifer            | Gale               | Jennifer.Gale@b2tcmJlX5ubIVtKS.org  |
+| AAAAAAAAAACEBAAA | Linda               | French             | Linda.French@Esfp.com               |
+| AAAAAAAAAACFBAAA | Kristy              | Dempsey            | Kristy.Dempsey@xS9.com              |
+| AAAAAAAAAACIBAAA | Katie               | Guzman             | Katie.Guzman@dKvK7dy.org            |
+| AAAAAAAAAACJAAAA | Janet               | Robbins            | Janet.Robbins@a4kv1P.com            |
+| AAAAAAAAAACPAAAA | James               | Arnold             | James.Arnold@SmitxbYkJpy.org        |
+| AAAAAAAAAADAAAAA | Evelyn              | Wright             | Evelyn.Wright@QfMrfa28b5Z.com       |
+| AAAAAAAAAADIBAAA | Stanley             | Parra              | Stanley.Parra@sjavt7HrLVvgNXmQA.edu |
+| AAAAAAAAAAEEAAAA | Louise              | Hayden             | Louise.Hayden@uNzCq168j4.com        |
++------------------+---------------------+--------------------+-------------------------------------+
+Query 5 returned 1 rows
+DataFrame()
++-----------------+------------------------------+-----------+---------+-----------+
+| channel         | id                           | sales     | returns | profit    |
++-----------------+------------------------------+-----------+---------+-----------+
+| catalog channel | catalog_pageAAAAAAAAAAHBAAAA | 0.00      | 2573.86 | -2314.21  |
+| catalog channel | catalog_pageAAAAAAAAAAIBAAAA | 79271.26  | 0.00    | -15373.96 |
+| catalog channel | catalog_pageAAAAAAAAAAKBAAAA | 84480.65  | 0.00    | 6246.81   |
+| catalog channel | catalog_pageAAAAAAAAABHBAAAA | 0.00      | 778.91  | -737.66   |
+| catalog channel | catalog_pageAAAAAAAAABKBAAAA | 101276.24 | 0.00    | 10193.83  |
+| catalog channel | catalog_pageAAAAAAAAACEBAAAA | 0.00      | 147.18  | -161.10   |
+| catalog channel | catalog_pageAAAAAAAAACHBAAAA | 0.00      | 5603.78 | -3477.14  |
+| catalog channel | catalog_pageAAAAAAAAACKBAAAA | 39547.67  | 0.00    | -13233.16 |
+| catalog channel | catalog_pageAAAAAAAAADHBAAAA | 0.00      | 1291.83 | -1529.96  |
+| catalog channel | catalog_pageAAAAAAAAADIBAAAA | 0.00      | 371.25  | -135.98   |
+| catalog channel | catalog_pageAAAAAAAAAEHBAAAA | 188710.01 | 0.00    | -57355.49 |
+| catalog channel | catalog_pageAAAAAAAAAFHBAAAA | 213120.21 | 7258.08 | -8579.05  |
+| catalog channel | catalog_pageAAAAAAAAAGHBAAAA | 194165.15 | 0.00    | -31016.63 |
+| catalog channel | catalog_pageAAAAAAAAAGJBAAAA | 10574.08  | 0.00    | -3627.97  |
+| catalog channel | catalog_pageAAAAAAAAAHHBAAAA | 239059.58 | 1946.98 | -38013.37 |
+| catalog channel | catalog_pageAAAAAAAAAHIBAAAA | 0.00      | 31.03   | -1024.59  |
+| catalog channel | catalog_pageAAAAAAAAAHJBAAAA | 30979.46  | 0.00    | 6036.03   |
+| catalog channel | catalog_pageAAAAAAAAAIHBAAAA | 190554.23 | 7541.18 | -29888.49 |
+| catalog channel | catalog_pageAAAAAAAAAIJBAAAA | 20834.02  | 0.00    | -3392.91  |
+| catalog channel | catalog_pageAAAAAAAAAJDBAAAA | 0.00      | 296.10  | -204.00   |
++-----------------+------------------------------+-----------+---------+-----------+
+Query 6 returned 1 rows
+DataFrame()
++-------+-----+
+| state | cnt |
++-------+-----+
+| NV    | 11  |
+| VT    | 12  |
+| MD    | 14  |
+| ME    | 21  |
+| NJ    | 21  |
+| WY    | 21  |
+| OR    | 22  |
+| ID    | 29  |
+| UT    | 31  |
+| NM    | 33  |
+| WA    | 33  |
+| ND    | 38  |
+| AL    | 42  |
+| WV    | 42  |
+| LA    | 43  |
+| SC    | 47  |
+| NY    | 48  |
+| WI    | 51  |
+| FL    | 54  |
+| SD    | 54  |
++-------+-----+
+Query 7 returned 1 rows
+DataFrame()
++------------------+------+------------+------------+------------+
+| i_item_id        | agg1 | agg2       | agg3       | agg4       |
++------------------+------+------------+------------+------------+
+| AAAAAAAAAAABAAAA | 8.5  | 128.765000 | 58.625000  | 45.005000  |
+| AAAAAAAAAAACAAAA | 51.0 | 10.860000  | 62.650000  | 1.950000   |
+| AAAAAAAAAAAEAAAA | 46.0 | 110.430000 | 265.515000 | 38.970000  |
+| AAAAAAAAAABEAAAA | 25.0 | 98.540000  | 66.185000  | 78.240000  |
+| AAAAAAAAAACDAAAA | 18.0 | 57.800000  | 0.000000   | 51.440000  |
+| AAAAAAAAAADBAAAA | 89.0 | 157.080000 | 0.000000   | 149.220000 |
+| AAAAAAAAAAEDAAAA | 39.0 | 64.320000  | 0.000000   | 48.360000  |
+| AAAAAAAAAAEEAAAA | 22.0 | 161.520000 | 0.000000   | 19.380000  |
+| AAAAAAAAAAFDAAAA | 88.0 | 10.500000  | 0.000000   | 8.610000   |
+| AAAAAAAAAAGBAAAA | 78.0 | 2.520000   | 0.000000   | 0.950000   |
+| AAAAAAAAAAGCAAAA | 19.0 | 51.965000  | 17.820000  | 31.965000  |
+| AAAAAAAAAAHAAAAA | 30.0 | 96.490000  | 0.000000   | 61.750000  |
+| AAAAAAAAAAHBAAAA | 61.0 | 99.850000  | 0.000000   | 65.900000  |
+| AAAAAAAAAAHDAAAA | 18.0 | 20.885000  | 18.195000  | 2.765000   |
+| AAAAAAAAAAIAAAAA | 60.5 | 60.975000  | 0.000000   | 15.930000  |
+| AAAAAAAAAAICAAAA | 8.0  | 3.390000   | 0.000000   | 0.440000   |
+| AAAAAAAAAAJCAAAA | 35.0 | 103.220000 | 0.000000   | 5.160000   |
+| AAAAAAAAAAKAAAAA | 60.5 | 91.255000  | 0.000000   | 54.700000  |
+| AAAAAAAAAAKDAAAA | 55.0 | 64.380000  | 0.000000   | 31.530000  |
+| AAAAAAAAAAMCAAAA | 81.0 | 95.780000  | 0.000000   | 50.760000  |
++------------------+------+------------+------------+------------+
+Query 8 returned 0 rows
+DataFrame()
+++
+++
+Query 9 returned 2 rows
+DataFrame()
++-----------+------------+------------+------------+------------+
+| bucket1   | bucket2    | bucket3    | bucket4    | bucket5    |
++-----------+------------+------------+------------+------------+
+| 39.586662 | 116.114976 | 192.439185 | 267.187661 | 342.966758 |
++-----------+------------+------------+------------+------------+
+Query 10 failed: This feature is not implemented: Physical plan does not support logical expression Exists(Exists { subquery: <subquery>, negated: false })
+Query 11 returned 1 rows
+DataFrame()
++------------------+---------------------+--------------------+--------------------------------------+
+| customer_id      | customer_first_name | customer_last_name | customer_email_address               |
++------------------+---------------------+--------------------+--------------------------------------+
+| AAAAAAAAAAAHBAAA | Mark                | Roberts            | Mark.Roberts@XnKkSX0.org             |
+| AAAAAAAAAABLAAAA | John                | Wheeler            | John.Wheeler@Dui01bXMLCQ4NX7x.com    |
+| AAAAAAAAAABPAAAA | Danuta              | Mcallister         | Danuta.Mcallister@t.edu              |
+| AAAAAAAAAAFOAAAA | Eduardo             | Wilhelm            | Eduardo.Wilhelm@kPRoFT0T.com         |
+| AAAAAAAAAAICBAAA | Ronald              | Mitchell           | Ronald.Mitchell@pnQlzt0R6Sxmm.edu    |
+| AAAAAAAAAAKBAAAA | Esther              | Mitchell           | Esther.Mitchell@arhtMCnshxB.edu      |
+| AAAAAAAAAAKDAAAA | Stephen             | Valdes             | Stephen.Valdes@Hv6.edu               |
+| AAAAAAAAAALGAAAA | Ryan                | Ford               | Ryan.Ford@AqLu2.com                  |
+| AAAAAAAAAAOFAAAA | Hannah              | Bell               | Hannah.Bell@Rke89ZyLJ5a7o01G.com     |
+| AAAAAAAAABAPAAAA | Margaret            | Dominguez          | Margaret.Dominguez@x6HrmyI.org       |
+| AAAAAAAAABCBAAAA |                     | Miller             |                                      |
+| AAAAAAAAABCEAAAA | Randall             | Garrett            | Randall.Garrett@IjYlSi00K9.com       |
+| AAAAAAAAABDLAAAA | Thelma              | Bromley            | Thelma.Bromley@XKk6zkzVN.org         |
+| AAAAAAAAABEFBAAA | Joshua              | Long               | Joshua.Long@GGBi20g.org              |
+| AAAAAAAAABFPAAAA | Zachary             | Gonzales           | Zachary.Gonzales@7O.edu              |
+| AAAAAAAAABIEAAAA | Anna                | Yancey             | Anna.Yancey@o35RDCfAq1.org           |
+| AAAAAAAAABJGBAAA | Effie               | Brown              | Effie.Brown@uRCQ9yKOLT.org           |
+| AAAAAAAAABKCBAAA | James               | Neal               | James.Neal@pHH.com                   |
+| AAAAAAAAABNPAAAA | James               | Whitney            | James.Whitney@QBhtKFmJXVV.com        |
+| AAAAAAAAABOPAAAA | James               | Burton             | James.Burton@1feva5bOhkuZdjGFUAn.com |
++------------------+---------------------+--------------------+--------------------------------------+
+Query 12 returned 1 rows
+DataFrame()
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----------+-----------------+-------------+--------------+
+| i_item_id        | i_item_desc                                                                                                                                                                                           | i_category | i_class  | i_current_price | itemrevenue | revenueratio |
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----------+-----------------+-------------+--------------+
+| AAAAAAAAAKLBAAAA | Students take much indeed young resources. New, sexual parents hate low by a businesses. Integrate                                                                                                    | Books      | arts     | 1.54            | 260.60      | 0.401954     |
+| AAAAAAAABFHDAAAA | Still left years require even. Di                                                                                                                                                                     | Books      | arts     | 2.58            | 1303.20     | 2.010080     |
+| AAAAAAAACCMAAAAA | Powerfully consistent firms want less social, russian countries. Often positive u                                                                                                                     | Books      | arts     | 0.65            | 1116.36     | 1.721895     |
+| AAAAAAAACDEEAAAA | Areas prevent from a trees. Intense friends should know often instead common eyes. Thus substantial steps influence particularly with a                                                               | Books      | arts     | 4.97            | 10910.71    | 16.828890    |
+| AAAAAAAACMIDAAAA | Females mention personal, different techniques. Finally whole programmes would not run electric, vocational forms. Economically technical obligations could not give early members. Universal grounds | Books      | arts     | 5.87            | 468.18      | 0.722129     |
+| AAAAAAAADCCDAAAA | Already similar lives take perhaps certain islands. Past thin facts find countries. Initial, steep shoulders ought to suggest concerned, hot references. Suitable                                     | Books      | arts     | 7.18            | 2725.82     | 4.204357     |
+| AAAAAAAADPCCAAAA | Bright, happy seconds slow available men; tensions see so mountains. Wo                                                                                                                               | Books      | arts     | 4.23            | 3148.48     | 4.856276     |
+| AAAAAAAAEAEAAAAA | Different parties obtain insects. Too royal me                                                                                                                                                        | Books      | arts     | 1.09            | 1354.93     | 2.089870     |
+| AAAAAAAAFBMBAAAA | Clinical families cope international newspapers. Again essential principles may not define usually current written books. There poli                                                                  | Books      | arts     | 4.78            | 2574.69     | 3.971251     |
+| AAAAAAAAFCKCAAAA | Here costly books must not correct thus necessary patterns. Other, monetary lovers can convey urgent blocks. Tomorrow recent years woul                                                               | Books      | arts     | 2.44            | 48.24       | 0.074406     |
+| AAAAAAAAGAHAAAAA | Professional, biological models would not talk just. Parts identify companies. Pack                                                                                                                   | Books      | arts     | 0.54            | 20018.80    | 30.877385    |
+| AAAAAAAAILMDAAAA | Most short things hide. Sales can publish objects; maximum years arrange hence international, prime banks; scientists would need others.                                                              | Books      | arts     | 0.46            | 1863.36     | 2.874082     |
+| AAAAAAAAIOMDAAAA | Palestinian, strong arts help never mature rights. Loyal situations take likely bones. Weapons should go. Increased devices shall not appear there. Then simple dishes                                | Books      | arts     | 1.91            | 17.52       | 0.027023     |
+| AAAAAAAAKODEAAAA | Lads might remain fields. As democratic policies love clearly free arts. New, significant rates will not warn straight rules. Then contemporary la                                                    | Books      | arts     | 7.67            | 8248.72     | 12.722985    |
+| AAAAAAAAMIBEAAAA | Economic, surprised specimens disappear. True teachers force even. Local, little figures go. Developments could not realize feet. Careful, likely grounds prod                                        | Books      | arts     | 0.71            | 9578.65     | 14.774295    |
+| AAAAAAAAOLMAAAAA | Past, digital animals demonstrate now military, alive assets. Symptoms cannot give certainly the                                                                                                      | Books      | arts     | 4.10            | 35.63       | 0.054956     |
+| AAAAAAAAOMBEAAAA | High cars see developments. F                                                                                                                                                                         | Books      | arts     | 4.75            | 710.22      | 1.095457     |
+| AAAAAAAAPLLDAAAA | Strong budgets shall not take small costs; police used to show also twice miserable fields                                                                                                            | Books      | arts     | 9.00            | 449.10      | 0.692700     |
+| AAAAAAAABIPBAAAA | National, famous weeks become just sufficient women. Humans allow there things.                                                                                                                       | Books      | business | 2.57            | 96.00       | 0.183758     |
+| AAAAAAAABKACAAAA | Important, horrible figures may spill single women. Large, used team                                                                                                                                  | Books      | business | 5.25            | 254.04      | 0.486271     |
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----------+-----------------+-------------+--------------+
+Query 13 returned 1 rows
+DataFrame()
++------------------------------+-------------------------------------+----------------------------------------+----------------------------------------+
+| avg(store_sales.ss_quantity) | avg(store_sales.ss_ext_sales_price) | avg(store_sales.ss_ext_wholesale_cost) | sum(store_sales.ss_ext_wholesale_cost) |
++------------------------------+-------------------------------------+----------------------------------------+----------------------------------------+
+| 41.0                         | 2873.158750                         | 2641.278750                            | 21130.23                               |
++------------------------------+-------------------------------------+----------------------------------------+----------------------------------------+
+Query 14 failed: DataFusion error: NotImplemented("The context currently only supports a single SQL statement")
+Query 15 returned 1 rows
+DataFrame()
++--------+-----------------------------------+
+| ca_zip | sum(catalog_sales.cs_sales_price) |
++--------+-----------------------------------+
+| 30059  | 1003.96                           |
+| 30069  | 2804.98                           |
+| 30150  | 1061.06                           |
+| 30162  | 2573.33                           |
+| 30169  | 1343.44                           |
+| 30191  | 1183.76                           |
+| 30194  | 519.41                            |
+| 30399  | 1012.49                           |
+| 30499  | 821.42                            |
+| 30534  | 1298.42                           |
+| 30587  | 789.27                            |
+| 30618  | 619.30                            |
+| 30635  | 713.15                            |
+| 30894  | 583.58                            |
+| 31075  | 377.62                            |
+| 31087  | 661.97                            |
+| 31150  | 592.27                            |
+| 31289  | 620.00                            |
+| 31387  | 105.11                            |
+| 31521  | 751.70                            |
++--------+-----------------------------------+
+Query 16 returned 1 rows
+DataFrame()
++-------------+---------------------+------------------+
+| order count | total shipping cost | total net profit |
++-------------+---------------------+------------------+
+| 30          | 118490.87           | 5528.45          |
++-------------+---------------------+------------------+
+Query 17 returned 1 rows
+DataFrame()
++------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+---------------------------+-------------------------+---------------------------+-------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+
+| i_item_id        | i_item_desc                                                                                                                          | s_state | store_sales_quantitycount | store_sales_quantityave | store_sales_quantitystdev | store_sales_quantitycov | store_returns_quantitycount | store_returns_quantityave | store_returns_quantitystdev | store_returns_quantitycov | catalog_sales_quantitycount | catalog_sales_quantityave | catalog_sales_quantitystdev | catalog_sales_quantitycov |
++------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+---------------------------+-------------------------+---------------------------+-------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+
+| AAAAAAAAEEODAAAA | Small, redundant christians could hear. Ears cannot get minor, strong studies. Well awful powers may not cook straightforward, consi | TN      | 1                         | 61.0                    |                           |                         | 1                           | 44.0                      |                             |                           | 1                           | 38.0                      |                             |                           |
++------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+---------------------------+-------------------------+---------------------------+-------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+-----------------------------+---------------------------+
+Query 18 returned 1 rows
+DataFrame()
++------------------+---------------+----------+------------------+-----------+------------+-------------+-----------+--------------+-------------+----------+
+| i_item_id        | ca_country    | ca_state | ca_county        | agg1      | agg2       | agg3        | agg4      | agg5         | agg6        | agg7     |
++------------------+---------------+----------+------------------+-----------+------------+-------------+-----------+--------------+-------------+----------+
+| AAAAAAAAABMAAAAA | United States | CO       | Adams County     | 59.000000 | 47.570000  | 0.000000    | 16.170000 | -515.660000  | 1969.000000 | 5.000000 |
+| AAAAAAAABAKCAAAA | United States | CO       | Adams County     | 46.000000 | 90.070000  | 0.000000    | 57.640000 | -1257.640000 | 1969.000000 | 5.000000 |
+| AAAAAAAACDJAAAAA | United States | CO       | Adams County     | 93.000000 | 40.380000  | 156.920000  | 15.340000 | -1092.500000 | 1969.000000 | 5.000000 |
+| AAAAAAAACFAEAAAA | United States | CO       | Adams County     | 57.000000 | 117.910000 | 0.000000    | 76.640000 | -82.650000   | 1969.000000 | 5.000000 |
+| AAAAAAAAEJHAAAAA | United States | CO       | Adams County     | 63.000000 | 192.650000 | 0.000000    | 40.450000 | -3343.410000 | 1969.000000 | 5.000000 |
+| AAAAAAAAGPHDAAAA | United States | CO       | Adams County     | 71.000000 | 118.920000 | 2431.600000 | 71.350000 | -3667.000000 | 1969.000000 | 5.000000 |
+| AAAAAAAAIBPBAAAA | United States | CO       | Adams County     | 27.000000 | 26.460000  | 157.800000  | 17.190000 | 58.200000    | 1969.000000 | 5.000000 |
+| AAAAAAAAIPFDAAAA | United States | CO       | Adams County     | 26.000000 | 45.480000  | 0.000000    | 22.740000 | -428.220000  | 1969.000000 | 5.000000 |
+| AAAAAAAAKHJDAAAA | United States | CO       | Adams County     | 63.000000 | 3.100000   | 0.000000    | 0.270000  | -120.960000  | 1969.000000 | 5.000000 |
+| AAAAAAAALKICAAAA | United States | CO       | Adams County     | 37.000000 | 8.560000   | 2.680000    | 0.250000  | -266.490000  | 1969.000000 | 5.000000 |
+| AAAAAAAAPODCAAAA | United States | CO       | Adams County     | 88.000000 | 51.480000  | 0.000000    | 49.930000 | 312.400000   | 1969.000000 | 5.000000 |
+| AAAAAAAAANGAAAAA | United States | CO       | Archuleta County | 88.000000 | 100.160000 | 0.000000    | 9.010000  | -4968.480000 | 1969.000000 | 2.000000 |
+| AAAAAAAABEDCAAAA | United States | CO       | Archuleta County | 1.000000  | 100.100000 | 0.000000    | 55.050000 | 9.130000     | 1969.000000 | 2.000000 |
+| AAAAAAAAGGLAAAAA | United States | CO       | Archuleta County | 87.000000 | 207.100000 | 0.000000    | 12.420000 | -6097.830000 | 1969.000000 | 2.000000 |
+| AAAAAAAAGNGBAAAA | United States | CO       | Archuleta County | 28.000000 | 70.640000  | 0.000000    | 40.970000 | 460.320000   | 1969.000000 | 2.000000 |
+| AAAAAAAAIEMCAAAA | United States | CO       | Archuleta County | 54.000000 | 98.020000  | 0.000000    | 78.410000 | 1277.100000  | 1969.000000 | 2.000000 |
+| AAAAAAAAIHEEAAAA | United States | CO       | Archuleta County | 51.000000 | 137.730000 | 827.170000  | 26.160000 | -4405.330000 | 1969.000000 | 2.000000 |
+| AAAAAAAAIMFBAAAA | United States | CO       | Archuleta County | 51.000000 | 168.940000 | 0.000000    | 1.680000  | -3228.300000 | 1969.000000 | 2.000000 |
+| AAAAAAAAIMFEAAAA | United States | CO       | Archuleta County | 1.000000  | 68.080000  | 23.840000   | 32.670000 | -36.260000   | 1969.000000 | 2.000000 |
+| AAAAAAAAIPJAAAAA | United States | CO       | Archuleta County | 93.000000 | 34.370000  | 0.000000    | 18.900000 | -1148.550000 | 1969.000000 | 2.000000 |
++------------------+---------------+----------+------------------+-----------+------------+-------------+-----------+--------------+-------------+----------+
+Query 19 returned 1 rows
+DataFrame()
++----------+---------------------+---------------+----------------+-----------+
+| brand_id | brand               | i_manufact_id | i_manufact     | ext_price |
++----------+---------------------+---------------+----------------+-----------+
+| 3002002  | importoexporti #2   | 581           | oughteinganti  | 40834.62  |
+| 10011002 | amalgamalgamalg #2  | 112           | ableoughtought | 40338.13  |
+| 3001002  | amalgexporti #2     | 448           | eingeseese     | 39650.24  |
+| 9004011  | edu packmaxi #11    | 241           | oughteseable   | 37510.87  |
+| 10001014 | amalgunivamalg #14  | 207           | ationbarable   | 37413.28  |
+| 2002001  | importoimporto #1   | 134           | esepriought    | 37340.93  |
+| 3002001  | importoexporti #1   | 889           | n steingeing   | 37084.61  |
+| 9005011  | scholarmaxi #11     | 349           | n stesepri     | 36336.24  |
+| 3001001  | amalgexporti #1     | 358           | eingantipri    | 34244.46  |
+| 9004003  | edu packmaxi #3     | 191           | oughtn stought | 32848.04  |
+| 5004001  | edu packscholar #1  | 303           | pribarpri      | 31572.49  |
+| 4004001  | edu packedu pack #1 | 718           | eingoughtation | 30654.50  |
+| 6010003  | univbrand #3        | 165           | anticallyought | 29922.35  |
+| 7014001  | edu packnameless #1 | 23            | priable        | 29591.67  |
+| 1004001  | edu packamalg #1    | 675           | antiationcally | 28579.00  |
+| 10007007 | brandunivamalg #7   | 190           | barn stought   | 28549.18  |
+| 6013004  | exportibrand #4     | 520           | barableanti    | 26993.88  |
+| 3003001  | exportiexporti #1   | 349           | n stesepri     | 26542.50  |
+| 2003001  | exportiimporto #1   | 653           | priantically   | 26425.88  |
+| 6011004  | amalgbrand #4       | 9             | n st           | 26373.46  |
++----------+---------------------+---------------+----------------+-----------+
+Query 20 returned 1 rows
+DataFrame()
++------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------+-----------------+-------------+--------------+
+| i_item_id        | i_item_desc                                                                                                                                                                                        | i_category | i_class | i_current_price | itemrevenue | revenueratio |
++------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------+-----------------+-------------+--------------+
+| AAAAAAAAAAGEAAAA | Local, armed trusts might know. Right women might not like. Foreign, dark readers might flow more certain sides. Home old rivers can re                                                            | Children   | infants | 4.51            | 13327.43    | 1.562243     |
+| AAAAAAAAAIBBAAAA | Crews used to visit again; followers take to a scores. Attractive, difficult families absorb days. Foreign, essential empl                                                                         | Children   | infants | 1.52            | 12786.36    | 1.498819     |
+| AAAAAAAAAIEEAAAA | Difficult, good children could not use pp.. Historical, equal wings shall take wit                                                                                                                 | Children   | infants | 2.25            | 809.40      | 0.094878     |
+| AAAAAAAAAJBDAAAA | Gates create models. Below desirable neighbours will feel yesterday english efforts. Good years help royal problems. Heavy,                                                                        | Children   | infants | 1.29            | 1001.40     | 0.117384     |
+| AAAAAAAAAKABAAAA | Technolog                                                                                                                                                                                          | Children   | infants | 1.73            | 3079.11     | 0.360933     |
+| AAAAAAAAAKBCAAAA | Civil damages hear a bit results. Advertisements shall finance never instances. Large authors used to enjoy as yet special recommend                                                               | Children   | infants | 8.87            | 24165.32    | 2.832663     |
+| AAAAAAAAAKKCAAAA | More important companies get relations. Close new planes may not bring now domestic women. More happy facts swing most following rates; more different phenom                                      | Children   | infants | 8.67            | 4779.20     | 0.560218     |
+| AAAAAAAAAKNAAAAA | Always complete jews occur less bitter requirements. Female children complain firstly in a requirements. Working-class, good sons catch of course children; casually moral figures emplo           | Children   | infants | 12.53           | 1033.20     | 0.121111     |
+| AAAAAAAAALCEAAAA | S                                                                                                                                                                                                  | Children   | infants | 4.50            | 2582.74     | 0.302749     |
+| AAAAAAAAANKDAAAA | Decades receive. Parts survive straight managers. Clearly professional computers shall gauge requirements; e                                                                                       | Children   | infants | 3.08            | 1951.60     | 0.228766     |
+| AAAAAAAAAOADAAAA | Nearby, worthy appointments may not give political councils. Angry authorities will want rational provisions. Cruel items know still more medical milli                                            | Children   | infants | 1.76            | 85.20       | 0.009987     |
+| AAAAAAAAAOEBAAAA | Gene                                                                                                                                                                                               | Children   | infants | 3.36            | 11090.95    | 1.300083     |
+| AAAAAAAABCBDAAAA | Premier margins go yesterday absolute, new cases; ties shall not welcome                                                                                                                           | Children   | infants | 8.61            | 1578.15     | 0.184991     |
+| AAAAAAAABDGDAAAA | Securities will take much by a                                                                                                                                                                     | Children   | infants | 1.75            | 24654.95    | 2.890057     |
+| AAAAAAAABIBDAAAA | Really real approaches leave else. Wet, other territories see. Hence poor issues hold. Sick subsidies pick                                                                                         | Children   | infants | 1.66            | 10.15       | 0.001189     |
+| AAAAAAAABINDAAAA | Names might bring. Speakers experience predominantly well new others. Modern, social books might require both; high properties get on a waves. True papers comfort. Later certain women            | Children   | infants | 2.16            | 7364.51     | 0.863269     |
+| AAAAAAAABJFBAAAA | Overall, social results take by a sciences. Remarkable factors may not describe certainly delightful, new tensions. Cases ought to make yesterday in a items. Shares conform also applicants; co   | Children   | infants | 7.22            | 11519.36    | 1.350301     |
+| AAAAAAAABKFDAAAA | Eventually t                                                                                                                                                                                       | Children   | infants | 2.48            | 1185.36     | 0.138948     |
+| AAAAAAAABKOAAAAA | Sorry, new emotions illustrate special, resulting wages. Public, great walls carry in addition by a directions. Responses should bring particularly able, tired individuals. Average values gain a | Children   | infants | 9.75            | 12153.06    | 1.424583     |
+| AAAAAAAABPBCAAAA | New clients must ask indeed appropriate children. Conditions would                                                                                                                                 | Children   | infants | 0.53            | 2270.84     | 0.266188     |
++------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+---------+-----------------+-------------+--------------+
+Query 21 returned 1 rows
+DataFrame()
++---------------------+------------------+------------+-----------+
+| w_warehouse_name    | i_item_id        | inv_before | inv_after |
++---------------------+------------------+------------+-----------+
+| Conventional childr | AAAAAAAAAAHDAAAA | 1861       | 2672      |
+| Conventional childr | AAAAAAAAAALAAAAA | 2031       | 2323      |
+| Conventional childr | AAAAAAAAACLDAAAA | 2267       | 2625      |
+| Conventional childr | AAAAAAAAACPDAAAA | 1794       | 2310      |
+| Conventional childr | AAAAAAAAADGBAAAA | 2264       | 2930      |
+| Conventional childr | AAAAAAAAAEADAAAA | 1583       | 2049      |
+| Conventional childr | AAAAAAAAAFACAAAA | 1591       | 2075      |
+| Conventional childr | AAAAAAAAAFDCAAAA | 2432       | 3101      |
+| Conventional childr | AAAAAAAAAJCAAAAA | 2406       | 2772      |
+| Conventional childr | AAAAAAAAAJKBAAAA | 1216       | 1457      |
+| Conventional childr | AAAAAAAAALECAAAA | 1322       | 1832      |
+| Conventional childr | AAAAAAAAAOBBAAAA | 2513       | 2707      |
+| Conventional childr | AAAAAAAAAPLAAAAA | 2261       | 2379      |
+| Conventional childr | AAAAAAAABHPCAAAA | 2042       | 2928      |
+| Conventional childr | AAAAAAAABIDBAAAA | 1712       | 2326      |
+| Conventional childr | AAAAAAAABIJBAAAA | 2543       | 2746      |
+| Conventional childr | AAAAAAAABKFAAAAA | 786        | 1230      |
+| Conventional childr | AAAAAAAABNHBAAAA | 2605       | 2678      |
+| Conventional childr | AAAAAAAACAAAAAAA | 2480       | 2493      |
+| Conventional childr | AAAAAAAACBIAAAAA | 1609       | 1910      |
++---------------------+------------------+------------+-----------+
+Query 22 returned 1 rows
+DataFrame()
++------------------+----------------------+-----------------+-------------+--------------------+
+| i_product_name   | i_brand              | i_class         | i_category  | qoh                |
++------------------+----------------------+-----------------+-------------+--------------------+
+| oughtesebarought | edu packimporto #2   | sports-apparel  | Men         | 262.0              |
+| oughtesebarought | edu packimporto #2   | sports-apparel  |             | 262.0              |
+| oughtesebarought | edu packimporto #2   |                 |             | 262.0              |
+| oughtesebarought |                      |                 |             | 262.0              |
+| pricallyantiese  | amalgunivamalg #8    | cameras         | Electronics | 269.0              |
+| pricallyantiese  | amalgunivamalg #8    | cameras         |             | 269.0              |
+| pricallyantiese  | amalgunivamalg #8    |                 |             | 269.0              |
+| pricallyantiese  |                      |                 |             | 269.0              |
+| prin stbarpri    | edu packexporti #2   | school-uniforms | Children    | 297.55555555555554 |
+| prin stbarpri    | edu packexporti #2   | school-uniforms |             | 297.55555555555554 |
+| prin stbarpri    | edu packexporti #2   |                 |             | 297.55555555555554 |
+| prin stbarpri    |                      |                 |             | 297.55555555555554 |
+| priesebareing    | edu packscholar #2   | classical       | Music       | 299.63157894736844 |
+| priesebareing    | edu packscholar #2   | classical       |             | 299.63157894736844 |
+| priesebareing    | edu packscholar #2   |                 |             | 299.63157894736844 |
+| priesebareing    |                      |                 |             | 299.63157894736844 |
+| oughtn steseese  | scholaramalgamalg #4 | portable        | Electronics | 299.8              |
+| oughtn steseese  | scholaramalgamalg #4 | portable        |             | 299.8              |
+| oughtn steseese  | scholaramalgamalg #4 |                 |             | 299.8              |
+| oughtn steseese  |                      |                 |             | 299.8              |
++------------------+----------------------+-----------------+-------------+--------------------+
+Query 23 failed: DataFusion error: NotImplemented("The context currently only supports a single SQL statement")
+Query 24 failed: DataFusion error: NotImplemented("The context currently only supports a single SQL statement")
+Query 25 returned 1 rows
+DataFrame()
++------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+--------------------+--------------------+----------------------+
+| i_item_id        | i_item_desc                                                                                                                                                                                       | s_store_id       | s_store_name | store_sales_profit | store_returns_loss | catalog_sales_profit |
++------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+--------------------+--------------------+----------------------+
+| AAAAAAAAMMABAAAA | Dead, social pupils will like brightly; languages meet usually results. Sure, strong causes shall offset nervously good languages. Poor, hungry governments would not start still terms. Arrangem | AAAAAAAAEAAAAAAA | ese          | -145.81            | 72.53              | 374.34               |
++------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+--------------------+--------------------+----------------------+
+Query 26 returned 1 rows
+DataFrame()
++------------------+------+------------+-------------+------------+
+| i_item_id        | agg1 | agg2       | agg3        | agg4       |
++------------------+------+------------+-------------+------------+
+| AAAAAAAAAAACAAAA | 52.0 | 91.580000  | 0.000000    | 59.446666  |
+| AAAAAAAAAABAAAAA | 81.5 | 185.820000 | 450.980000  | 18.415000  |
+| AAAAAAAAAABBAAAA | 63.0 | 87.085000  | 3011.665000 | 71.080000  |
+| AAAAAAAAAABEAAAA | 68.0 | 56.180000  | 0.000000    | 30.890000  |
+| AAAAAAAAAACAAAAA | 45.0 | 75.080000  | 2654.350000 | 60.810000  |
+| AAAAAAAAAACDAAAA | 67.0 | 41.920000  | 0.000000    | 41.920000  |
+| AAAAAAAAAADBAAAA | 47.5 | 110.755000 | 377.310000  | 79.025000  |
+| AAAAAAAAAADEAAAA | 41.0 | 58.150000  | 80.090000   | 8.140000   |
+| AAAAAAAAAAEAAAAA | 1.0  | 42.880000  | 0.000000    | 21.010000  |
+| AAAAAAAAAAEBAAAA | 65.0 | 70.060000  | 0.000000    | 51.140000  |
+| AAAAAAAAAAFCAAAA | 5.0  | 118.090000 | 0.000000    | 93.290000  |
+| AAAAAAAAAAHAAAAA | 61.0 | 29.840000  | 0.000000    | 19.990000  |
+| AAAAAAAAAAIAAAAA | 28.5 | 81.005000  | 0.000000    | 23.175000  |
+| AAAAAAAAAAKDAAAA | 51.0 | 117.510000 | 0.000000    | 96.350000  |
+| AAAAAAAAAAMBAAAA | 13.0 | 90.880000  | 0.000000    | 62.700000  |
+| AAAAAAAAAAMCAAAA | 65.0 | 264.380000 | 0.000000    | 15.860000  |
+| AAAAAAAAAAOCAAAA | 4.0  | 37.820000  | 0.000000    | 33.650000  |
+| AAAAAAAAABAAAAAA | 16.0 | 23.580000  | 0.000000    | 3.300000   |
+| AAAAAAAAABAEAAAA | 9.0  | 227.820000 | 0.000000    | 179.970000 |
+| AAAAAAAAABBCAAAA | 29.0 | 105.470000 | 141.300000  | 69.610000  |
++------------------+------+------------+-------------+------------+
+Query 27 failed: External error: This feature is not implemented: physical plan is not yet implemented for GROUPING aggregate function
+Query 28 returned 1 rows
+DataFrame()
++-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+------------+--------+---------+
+| b1_lp     | b1_cnt | b1_cntd | b2_lp     | b2_cnt | b2_cntd | b3_lp     | b3_cnt | b3_cntd | b4_lp     | b4_cnt | b4_cntd | b5_lp     | b5_cnt | b5_cntd | b6_lp      | b6_cnt | b6_cntd |
++-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+------------+--------+---------+
+| 56.475495 | 36049  | 7003    | 90.924245 | 31399  | 8235    | 61.574065 | 29174  | 6522    | 69.692258 | 36200  | 8320    | 89.286962 | 32212  | 7930    | 106.974797 | 28626  | 9058    |
++-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+-----------+--------+---------+------------+--------+---------+
+Query 29 returned 0 rows
+DataFrame()
+++
+++
+Query 30 returned 1 rows
+DataFrame()
++------------------+--------------+--------------+-------------+-----------------------+-------------+---------------+--------------+---------------------+---------+----------------------------------------+-----------------------+------------------+
+| c_customer_id    | c_salutation | c_first_name | c_last_name | c_preferred_cust_flag | c_birth_day | c_birth_month | c_birth_year | c_birth_country     | c_login | c_email_address                        | c_last_review_date_sk | ctr_total_return |
++------------------+--------------+--------------+-------------+-----------------------+-------------+---------------+--------------+---------------------+---------+----------------------------------------+-----------------------+------------------+
+| AAAAAAAAACJMAAAA | Dr.          | Amanda       | Grimes      | Y                     | 18          | 6             | 1955         | LIBERIA             |         | Amanda.Grimes@6bDT.com                 | 2452605               | 2365.00          |
+| AAAAAAAAACOPAAAA | Mrs.         | Casandra     | Ford        | Y                     | 8           | 3             | 1956         | MOROCCO             |         | Casandra.Ford@RV8CTX2T86VY.edu         | 2452625               | 7331.93          |
+| AAAAAAAAAKACBAAA | Dr.          | Julie        | Howe        | Y                     | 20          | 10            | 1932         | ANGUILLA            |         | Julie.Howe@Iv.edu                      | 2452330               | 3703.64          |
+| AAAAAAAAALFFBAAA | Ms.          | Katrina      | Oliver      | Y                     | 29          | 7             | 1936         | NEW ZEALAND         |         | Katrina.Oliver@r18C6nUAq.com           | 2452395               | 3098.55          |
+| AAAAAAAAAMGBAAAA | Ms.          | Joyce        | Harris      | N                     | 13          | 1             | 1946         | GUINEA              |         | Joyce.Harris@gs.com                    | 2452547               | 4526.55          |
+| AAAAAAAAAMNGBAAA | Dr.          | Anthony      | Matson      | N                     | 23          | 12            | 1979         | SOLOMON ISLANDS     |         | Anthony.Matson@IYE9jGP3.com            | 2452470               | 2193.84          |
+| AAAAAAAABAIBBAAA | Mrs.         | Anna         | Yanez       | N                     | 10          | 9             | 1951         | ANTIGUA AND BARBUDA |         | Anna.Yanez@lxMkGQ78.edu                | 2452424               | 1763.52          |
+| AAAAAAAABAMLAAAA | Mrs.         | Susan        | Roberts     | Y                     | 22          | 5             | 1985         | LIECHTENSTEIN       |         | Susan.Roberts@UNvxXkFc.edu             | 2452529               | 2909.76          |
+| AAAAAAAABBGJAAAA | Dr.          | David        | Burgess     | N                     | 24          | 7             | 1932         | BRUNEI DARUSSALAM   |         | David.Burgess@jN.edu                   | 2452497               | 5884.92          |
+| AAAAAAAABBIEBAAA | Miss         | Tabatha      | Smith       | Y                     | 11          | 1             | 1930         | PITCAIRN            |         | Tabatha.Smith@C89rMdanZ.edu            | 2452296               | 6715.08          |
+| AAAAAAAABCMAAAAA | Ms.          | Crystal      | Roberts     | N                     | 22          | 7             | 1989         | SINGAPORE           |         | Crystal.Roberts@YY.com                 | 2452495               | 2191.14          |
+| AAAAAAAABDEBBAAA | Ms.          | Kristine     | Heaton      | Y                     | 29          | 8             | 1948         | SPAIN               |         | Kristine.Heaton@gULQp3OBs.com          | 2452614               | 1533.28          |
+| AAAAAAAABHFBBAAA |              |              |             |                       | 7           | 9             | 1969         |                     |         | Tiffany.Johnson@r9Tt9zuXX4XC.org       |                       | 8361.57          |
+| AAAAAAAABHKCAAAA | Mr.          | Frank        | Bender      | N                     | 5           | 9             | 1982         | BOUVET ISLAND       |         | Frank.Bender@OxDHI0JhO84zsB.edu        | 2452313               | 3084.50          |
+| AAAAAAAABKIEAAAA | Mr.          |              | Riley       | Y                     | 6           |               | 1983         |                     |         | James.Riley@OqTJGegdD4uZZb.com         | 2452287               | 5538.72          |
+| AAAAAAAABNKDBAAA | Mr.          | Donald       | Ballard     | N                     | 14          | 12            | 1949         | JAMAICA             |         | Donald.Ballard@C03.org                 | 2452388               | 3984.00          |
+| AAAAAAAABOHGAAAA | Mrs.         | Alma         | Young       | Y                     | 8           | 4             | 1979         | MALDIVES            |         | Alma.Young@ApZPom9.com                 | 2452468               | 3398.20          |
+| AAAAAAAACBFJAAAA | Dr.          | Jeremy       | Ramirez     | N                     | 11          | 12            | 1928         | CROATIA             |         | Jeremy.Ramirez@vK1QQRnyRf.edu          | 2452319               | 2111.94          |
+| AAAAAAAACCLEAAAA | Dr.          | Dominique    | Lopez       | Y                     | 17          | 7             | 1961         | KOREA, REPUBLIC OF  |         | Dominique.Lopez@dYoJYFJ5arfN0sZMkV.org | 2452397               | 5081.30          |
+| AAAAAAAACEBABAAA | Miss         | Jenny        | Corona      | N                     | 16          | 10            | 1962         | PAKISTAN            |         | Jenny.Corona@pSeVANlJZ.org             | 2452614               | 1778.26          |
++------------------+--------------+--------------+-------------+-----------------------+-------------+---------------+--------------+---------------------+---------+----------------------------------------+-----------------------+------------------+
+Query 31 returned 1 rows
+DataFrame()
++------------------+--------+--------------------+----------------------+--------------------+----------------------+
+| ca_county        | d_year | web_q1_q2_increase | store_q1_q2_increase | web_q2_q3_increase | store_q2_q3_increase |
++------------------+--------+--------------------+----------------------+--------------------+----------------------+
+| Allen County     | 1999   | 2.297824           | 2.011862             | 1.463565           | 0.784115             |
+| Austin County    | 1999   | 0.584071           | 0.367871             | 2.249642           | 1.723069             |
+| Barnwell County  | 1999   | 4.585032           | 1.135011             | 0.675402           | 0.441830             |
+| Bennett County   | 1999   | 1.841019           | 0.569755             | 3.832678           | 3.540936             |
+| Bristol County   | 1999   | 1.245811           | 0.898968             | 0.909130           | 0.537356             |
+| Caldwell County  | 1999   | 1.298005           | 1.290953             | 13.198440          | 1.371537             |
+| Camden County    | 1999   | 1.062649           | 0.766544             | 2.771309           | 1.859508             |
+| Cass County      | 1999   | 2.116449           | 1.568685             | 3.481910           | 1.433987             |
+| Chickasaw County | 1999   | 1.053849           | 0.543011             | 3.146861           | 0.870939             |
+| Claiborne County | 1999   | 2.209218           | 1.014876             | 1.793255           | 0.928353             |
+| Clay County      | 1999   | 0.726554           | 0.599959             | 3.096124           | 2.119476             |
+| Clinton County   | 1999   | 1.311979           | 0.960382             | 2.135064           | 1.623384             |
+| Colfax County    | 1999   | 1.410905           | 1.249358             | 1.347706           | 0.467262             |
+| Columbia County  | 1999   | 1.205247           | 0.738137             | 4.762766           | 2.926247             |
+| Costilla County  | 1999   | 4.563217           | 1.127702             | 0.912294           | 0.434274             |
+| Dixon County     | 1999   | 2.167653           | 0.721017             | 1.724257           | 1.455787             |
+| Emmet County     | 1999   | 1.864083           | 0.889972             | 4.374168           | 3.007518             |
+| Franklin County  | 1999   | 1.097681           | 1.059284             | 1.195117           | 1.051931             |
+| Fresno County    | 1999   | 1.787532           | 1.370334             | 3.584001           | 3.472861             |
+| Gallatin County  | 1999   | 1.985108           | 1.435500             | 1.171175           | 0.923664             |
++------------------+--------+--------------------+----------------------+--------------------+----------------------+
+Query 32 returned 1 rows
+DataFrame()
++------------------------+
+| excess discount amount |
++------------------------+
+| 122275.56              |
++------------------------+
+Query 33 returned 1 rows
+DataFrame()
++---------------+-------------+
+| i_manufact_id | total_sales |
++---------------+-------------+
+| 818           | 4.08        |
+| 993           | 40.00       |
+| 990           | 97.65       |
+| 710           | 317.32      |
+| 920           | 694.31      |
+| 780           | 794.63      |
+| 936           | 815.27      |
+| 812           | 912.00      |
+| 748           | 995.14      |
+| 582           | 1243.55     |
+| 767           | 1259.07     |
+| 853           | 1348.17     |
+| 810           | 1741.35     |
+| 827           | 1935.68     |
+| 635           | 2071.94     |
+| 399           | 2106.74     |
+| 705           | 2228.79     |
+| 757           | 2383.14     |
+| 985           | 2421.28     |
+| 711           | 2445.59     |
++---------------+-------------+
+Query 34 returned 1 rows
+DataFrame()
++-------------+--------------+--------------+-----------------------+------------------+-----+
+| c_last_name | c_first_name | c_salutation | c_preferred_cust_flag | ss_ticket_number | cnt |
++-------------+--------------+--------------+-----------------------+------------------+-----+
+| Adams       | Willie       | Sir          | Y                     | 88285            | 16  |
+| Akers       | Susan        | Miss         | N                     | 239968           | 15  |
+| Alston      | Jesus        | Sir          | Y                     | 52608            | 15  |
+| Anderson    | Martha       | Mrs.         | Y                     | 205757           | 16  |
+| Anderson    | Norma        | Miss         | Y                     | 132983           | 15  |
+| Andrews     | Cindy        | Miss         | Y                     | 132595           | 15  |
+| Andrews     | Robert       | Sir          | Y                     | 30467            | 16  |
+| Appleton    | Ivan         | Dr.          | Y                     | 74586            | 16  |
+| Archibald   | Cindy        | Miss         | Y                     | 87178            | 16  |
+| Baird       | Jovita       | Miss         | N                     | 27451            | 16  |
+| Baker       | Robert       | Dr.          | Y                     | 28481            | 15  |
+| Baldwin     | Barry        | Mr.          | N                     | 95209            | 15  |
+| Ball        | Michael      | Dr.          | N                     | 237513           | 15  |
+| Barber      | Ramona       | Dr.          | N                     | 177064           | 15  |
+| Barlow      | Debroah      | Dr.          | N                     | 97275            | 16  |
+| Barnes      | Arthur       | Ms.          | N                     | 155991           | 15  |
+| Barnes      | Lindsey      | Sir          | Y                     | 157632           | 15  |
+| Bates       | Beverly      | Miss         | N                     | 122717           | 15  |
+| Bates       | Gary         | Mr.          | Y                     | 39501            | 15  |
+| Beaulieu    | Natalie      | Mrs.         | N                     | 237041           | 15  |
++-------------+--------------+--------------+-----------------------+------------------+-----+
+Query 35 failed: DataFusion error: Plan("Projections require unique expression names but the expression \"stddev(customer_demographics.cd_dep_count)\" at position 6 and \"stddev(customer_demographics.cd_dep_count)\" at position 7 have the same name. Consider aliasing (\"AS\") one of them.")
+Query 36 failed: External error: External error: This feature is not implemented: physical plan is not yet implemented for GROUPING aggregate function
+Query 37 returned 0 rows
+DataFrame()
+++
+++
+Query 38 returned 1 rows
+DataFrame()
++----------+
+| count(*) |
++----------+
+| 111      |
++----------+
+Query 39 failed: DataFusion error: NotImplemented("The context currently only supports a single SQL statement")
+Query 40 returned 1 rows
+DataFrame()
++---------+------------------+--------------+-------------+
+| w_state | i_item_id        | sales_before | sales_after |
++---------+------------------+--------------+-------------+
+| TN      | AAAAAAAAAAABAAAA | 36.12        | 0.00        |
+| TN      | AAAAAAAAAAKBAAAA | 271.23       | 134.31      |
+| TN      | AAAAAAAAABBAAAAA | -400.48      | 0.00        |
+| TN      | AAAAAAAAABECAAAA | 34.97        | 154.15      |
+| TN      | AAAAAAAAACIBAAAA | 0.00         | 128.77      |
+| TN      | AAAAAAAAADBEAAAA | 53.44        | 98.51       |
+| TN      | AAAAAAAAADKAAAAA | 83.97        | 0.00        |
+| TN      | AAAAAAAAADLCAAAA | 0.00         | 149.82      |
+| TN      | AAAAAAAAAEBDAAAA | 37.78        | 121.04      |
+| TN      | AAAAAAAAAEHAAAAA | 0.00         | 83.31       |
+| TN      | AAAAAAAAAENDAAAA | 115.26       | 43.06       |
+| TN      | AAAAAAAAAFCBAAAA | 77.75        | 0.00        |
+| TN      | AAAAAAAAAFOAAAAA | 362.58       | 23.11       |
+| TN      | AAAAAAAAAGPCAAAA | 90.47        | 37.16       |
+| TN      | AAAAAAAAAHKDAAAA | -211.06      | 0.00        |
+| TN      | AAAAAAAAAHLBAAAA | 93.41        | 12.14       |
+| TN      | AAAAAAAAAHNCAAAA | 0.00         | 104.50      |
+| TN      | AAAAAAAAAIEBAAAA | 77.39        | 97.96       |
+| TN      | AAAAAAAAAIFAAAAA | 68.49        | 0.00        |
+| TN      | AAAAAAAAAIFBAAAA | 0.00         | 43.72       |
++---------+------------------+--------------+-------------+
+Query 41 failed: check_analyzed_plan
+caused by
+Error during planning: Correlated column is not allowed in predicate: item.i_manufact = outer_ref(i1.i_manufact) AND (item.i_category = Utf8("Women") AND (item.i_color = Utf8("cream") OR item.i_color = Utf8("ghost")) AND (item.i_units = Utf8("Ton") OR item.i_units = Utf8("Gross")) AND (item.i_size = Utf8("economy") OR item.i_size = Utf8("small")) OR item.i_category = Utf8("Women") AND (item.i_color = Utf8("midnight") OR item.i_color = Utf8("burlywood")) AND (item.i_units = Utf8("Tsp") OR item.i_units = Utf8("Bundle")) AND (item.i_size = Utf8("medium") OR item.i_size = Utf8("extra large")) OR item.i_category = Utf8("Men") AND (item.i_color = Utf8("lavender") OR item.i_color = Utf8("azure")) AND (item.i_units = Utf8("Each") OR item.i_units = Utf8("Lb")) AND (item.i_size = Utf8("large") OR item.i_size = Utf8("N/A")) OR item.i_category = Utf8("Men") AND (item.i_color = Utf8("chocolate") OR item.i_color = Utf8("steel")) AND (item.i_units = Utf8("N/A") OR item.i_units = Utf8("Dozen")) AND (item.i_size = Utf8("economy") OR item.i_size = Utf8("small"))) OR item.i_manufact = outer_ref(i1.i_manufact) AND (item.i_category = Utf8("Women") AND (item.i_color = Utf8("floral") OR item.i_color = Utf8("royal")) AND (item.i_units = Utf8("Unknown") OR item.i_units = Utf8("Tbl")) AND (item.i_size = Utf8("economy") OR item.i_size = Utf8("small")) OR item.i_category = Utf8("Women") AND (item.i_color = Utf8("navy") OR item.i_color = Utf8("forest")) AND (item.i_units = Utf8("Bunch") OR item.i_units = Utf8("Dram")) AND (item.i_size = Utf8("medium") OR item.i_size = Utf8("extra large")) OR item.i_category = Utf8("Men") AND (item.i_color = Utf8("cyan") OR item.i_color = Utf8("indian")) AND (item.i_units = Utf8("Carton") OR item.i_units = Utf8("Cup")) AND (item.i_size = Utf8("large") OR item.i_size = Utf8("N/A")) OR item.i_category = Utf8("Men") AND (item.i_color = Utf8("coral") OR item.i_color = Utf8("pale")) AND (item.i_units = Utf8("Pallet") OR item.i_units = Utf8("Gram")) AND (item.i_size = Utf8("economy") OR item.i_size = Utf8("small")))
+Query 42 returned 1 rows
+DataFrame()
++--------+---------------+-------------+-------------------------------------+
+| d_year | i_category_id | i_category  | sum(store_sales.ss_ext_sales_price) |
++--------+---------------+-------------+-------------------------------------+
+| 1998   | 1             | Women       | 408449.57                           |
+| 1998   | 5             | Music       | 388897.38                           |
+| 1998   | 6             | Jewelry     | 371882.78                           |
+| 1998   | 2             | Men         | 355093.48                           |
+| 1998   | 7             | Home        | 318383.84                           |
+| 1998   | 3             | Children    | 302172.98                           |
+| 1998   | 10            | Electronics | 261338.42                           |
+| 1998   | 8             | Sports      | 245262.43                           |
+| 1998   | 9             | Books       | 225900.06                           |
+| 1998   | 4             | Shoes       | 217879.90                           |
++--------+---------------+-------------+-------------------------------------+
+Query 43 returned 1 rows
+DataFrame()
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| s_store_name | s_store_id       | sun_sales | mon_sales | tue_sales | wed_sales | thu_sales | fri_sales | sat_sales |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+| able         | AAAAAAAACAAAAAAA | 515110.76 | 464120.06 | 500664.51 | 448205.41 | 478045.76 | 461757.71 | 503931.77 |
+| ation        | AAAAAAAAHAAAAAAA | 502011.90 | 481011.39 | 447377.22 | 486012.34 | 505015.37 | 469140.25 | 508623.72 |
+| bar          | AAAAAAAAKAAAAAAA | 497068.47 | 468861.30 | 479823.43 | 476073.24 | 472854.26 | 485000.19 | 498871.73 |
+| eing         | AAAAAAAAIAAAAAAA | 496572.01 | 467279.73 | 481388.19 | 450509.39 | 490318.17 | 473732.21 | 482544.35 |
+| ese          | AAAAAAAAEAAAAAAA | 491878.78 | 499206.55 | 454298.99 | 469053.78 | 475448.17 | 479807.40 | 500623.05 |
+| ought        | AAAAAAAABAAAAAAA | 506429.61 | 466670.31 | 465561.55 | 483011.61 | 490414.38 | 471727.31 | 500735.85 |
++--------------+------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+Query 44 returned 0 rows
+DataFrame()
+++
+++
+Query 45 failed: This feature is not implemented: Physical plan does not support logical expression InSubquery(InSubquery { expr: Column(Column { relation: Some(Bare { table: "item" }), name: "i_item_id" }), subquery: <subquery>, negated: false })
+Query 46 returned 1 rows
+DataFrame()
++-------------+--------------+--------------+----------------+------------------+---------+-----------+
+| c_last_name | c_first_name | ca_city      | bought_city    | ss_ticket_number | amt     | profit    |
++-------------+--------------+--------------+----------------+------------------+---------+-----------+
+| Aaron       | Charles      | Jamestown    | Red Hill       | 183217           | 400.46  | -1906.15  |
+| Aaron       | George       | Forest Hills | Woodville      | 6922             | 1100.47 | -6529.57  |
+| Abbott      | Frederick    | Green Acres  | Oakland        | 7247             | 7023.24 | -10956.48 |
+| Abbott      | Genevieve    | Lebanon      | Union Hill     | 222904           | 277.04  | -5039.97  |
+| Abbott      | Kathlyn      | Highland     | Providence     | 102224           | 2617.32 | -11370.51 |
+| Abel        | Etta         | Wildwood     | Newport        | 180836           | 1122.81 | -1393.48  |
+| Abernathy   | Helen        | Forest Hills | Fairview       | 235211           | 5081.59 | -5300.55  |
+| Abner       | Lane         | Liberty      | Greenville     | 9171             | 2302.49 | -14539.45 |
+| Abraham     | Carolyn      | Shiloh       | Ashland        | 132084           | 443.13  | -5091.86  |
+| Abraham     | Michael      | Kingston     | Clifton        | 14263            | 1234.83 | -3781.53  |
+| Abraham     | Terry        | Bunker Hill  | Springdale     | 23077            | 4343.36 | -14550.88 |
+| Abrams      | Samuel       | Deerfield    | Birmingham     | 58309            | 8700.79 | -7131.97  |
+| Abrams      | Samuel       | Deerfield    | Salem          | 16118            | 1257.69 | -16345.75 |
+| Abreu       | David        | Brownsville  | Liberty        | 150301           | 317.55  | -10777.38 |
+| Abreu       | Dorothy      | Valley View  | Cordova        | 86950            | 1400.32 | -7754.57  |
+| Acevedo     | Jonathan     | Jerome       | Highland Park  | 212349           | 1580.80 | -4967.30  |
+| Acker       | Lori         | Plainview    | Bunker Hill    | 124230           | 1260.12 | -12942.87 |
+| Ackerman    |              | Hopewell     | Pleasant Grove | 94468            | 0.00    | 4089.26   |
+| Ackley      | Christopher  | Bethel       | Sunnyside      | 231434           | 494.17  | -4443.67  |
+| Acosta      | Donald       | San Jose     | Clinton        | 212888           | 0.00    | 1189.56   |
++-------------+--------------+--------------+----------------+------------------+---------+-----------+
+Query 47 returned 1 rows
+DataFrame()
++------------+--------------------+--------------+----------------+--------+-------------------+-----------+---------+----------+
+| i_category | i_brand            | s_store_name | s_company_name | d_year | avg_monthly_sales | sum_sales | psum    | nsum     |
++------------+--------------------+--------------+----------------+--------+-------------------+-----------+---------+----------+
+| Shoes      | importoedu pack #2 | able         | Unknown        | 2001   | 7627.086666       | 2936.33   | 5480.07 | 4058.81  |
+| Men        | importoimporto #2  | ese          | Unknown        | 2001   | 7497.674166       | 2924.52   | 4734.38 | 3797.43  |
+| Men        | importoimporto #2  | ation        | Unknown        | 2001   | 7784.624166       | 3216.53   | 4992.67 | 5380.59  |
+| Children   | exportiexporti #2  | eing         | Unknown        | 2001   | 6837.600000       | 2360.39   | 3388.26 | 4503.41  |
+| Music      | importoscholar #2  | ation        | Unknown        | 2001   | 8033.681666       | 3571.12   | 4227.43 | 4608.46  |
+| Shoes      | importoedu pack #2 | ought        | Unknown        | 2001   | 7435.618333       | 2987.39   | 3797.90 | 3572.56  |
+| Music      | importoscholar #2  | ought        | Unknown        | 2001   | 7797.459166       | 3352.52   | 5289.57 | 4423.50  |
+| Music      | importoscholar #2  | able         | Unknown        | 2001   | 7520.386666       | 3184.79   | 4930.06 | 4550.93  |
+| Shoes      | importoedu pack #2 | ese          | Unknown        | 2001   | 8061.617500       | 3749.84   | 4953.00 | 5158.90  |
+| Men        | importoimporto #2  | bar          | Unknown        | 2001   | 7508.208333       | 3202.76   | 4061.76 | 4226.74  |
+| Music      | edu packscholar #2 | ation        | Unknown        | 2001   | 7563.955000       | 3298.11   | 3851.45 | 3642.60  |
+| Women      | amalgamalg #2      | ation        | Unknown        | 2001   | 6538.077500       | 2333.35   | 3880.45 | 3632.80  |
+| Women      | edu packamalg #2   | ese          | Unknown        | 2001   | 7368.728333       | 3189.08   | 4273.98 | 4204.32  |
+| Shoes      | amalgedu pack #2   | bar          | Unknown        | 2001   | 7192.715000       | 3022.42   | 3994.76 | 5138.73  |
+| Music      | importoscholar #2  | eing         | Unknown        | 2001   | 7687.752500       | 3563.68   | 4526.46 | 3750.84  |
+| Music      | amalgscholar #2    | able         | Unknown        | 2001   | 6449.397500       | 2334.01   | 2891.86 | 4229.96  |
+| Shoes      | importoedu pack #2 | able         | Unknown        | 2001   | 7627.086666       | 3514.08   | 4058.81 | 4245.14  |
+| Men        | importoimporto #2  | able         | Unknown        | 2001   | 7672.357500       | 3580.99   | 4674.45 | 4053.09  |
+| Music      | importoscholar #2  | ation        | Unknown        | 2001   | 8033.681666       | 3978.23   | 4421.09 | 10494.06 |
+| Children   | edu packexporti #2 | eing         | Unknown        | 2001   | 7154.182500       | 3111.48   | 3470.35 | 3920.99  |
++------------+--------------------+--------------+----------------+--------+-------------------+-----------+---------+----------+
+Query 48 returned 1 rows
+DataFrame()
++------------------------------+
+| sum(store_sales.ss_quantity) |
++------------------------------+
+| 28660                        |
++------------------------------+
+Query 49 returned 1 rows
+DataFrame()
++---------+-------+--------------+-------------+---------------+
+| channel | item  | return_ratio | return_rank | currency_rank |
++---------+-------+--------------+-------------+---------------+
+| catalog | 2035  | 0.51546391   | 1           | 1             |
+| catalog | 6770  | 0.58585858   | 2           | 2             |
+| catalog | 3821  | 0.59595959   | 3           | 3             |
+| catalog | 17273 | 0.63541666   | 4           | 4             |
+| catalog | 16699 | 0.66666666   | 5           | 5             |
+| catalog | 17975 | 0.67058823   | 6           | 6             |
+| catalog | 13487 | 0.68235294   | 7           | 7             |
+| catalog | 2725  | 0.68539325   | 8           | 8             |
+| catalog | 11993 | 0.69411764   | 9           | 9             |
+| catalog | 12739 | 0.70103092   | 10          | 10            |
+| store   | 7625  | 0.72826086   | 1           | 1             |
+| store   | 967   | 0.86516853   | 2           | 2             |
+| store   | 14756 | 0.86666666   | 3           | 3             |
+| store   | 6596  | 0.89473684   | 4           | 4             |
+| store   | 10681 | 0.89873417   | 5           | 5             |
+| store   | 17723 | 0.91566265   | 6           | 6             |
+| store   | 4355  | 0.92708333   | 7           | 11            |
+| store   | 5384  | 0.93333333   | 8           | 12            |
+| store   | 11243 | 0.93670886   | 9           | 7             |
+| store   | 17162 | 0.95402298   | 10          | 8             |
++---------+-------+--------------+-------------+---------------+
+Query 50 returned 1 rows
+DataFrame()
++--------------+--------------+-----------------+---------------+---------------+----------------+----------+-------------------+---------+-------+---------+------------+------------+-------------+-----------+
+| s_store_name | s_company_id | s_street_number | s_street_name | s_street_type | s_suite_number | s_city   | s_county          | s_state | s_zip | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++--------------+--------------+-----------------+---------------+---------------+----------------+----------+-------------------+---------+-------+---------+------------+------------+-------------+-----------+
+| able         | 1            | 255             | Sycamore      | Dr.           | Suite 410      | Midway   | Williamson County | TN      | 31904 | 68      | 62         | 56         | 59          | 118       |
+| ation        | 1            | 811             | Lee           | Circle        | Suite T        | Midway   | Williamson County | TN      | 31904 | 73      | 59         | 67         | 59          | 109       |
+| bar          | 1            | 175             | 4th           | Court         | Suite C        | Midway   | Williamson County | TN      | 31904 | 62      | 55         | 58         | 43          | 91        |
+| eing         | 1            | 226             | 12th          | Lane          | Suite D        | Fairview | Williamson County | TN      | 35709 | 64      | 57         | 38         | 51          | 101       |
+| ese          | 1            | 27              | Lake          | Ln            | Suite 260      | Midway   | Williamson County | TN      | 31904 | 71      | 51         | 53         | 54          | 106       |
+| ought        | 1            | 767             | Spring        | Wy            | Suite 250      | Midway   | Williamson County | TN      | 31904 | 76      | 48         | 66         | 54          | 110       |
++--------------+--------------+-----------------+---------------+---------------+----------------+----------+-------------------+---------+-------+---------+------------+------------+-------------+-----------+
+Query 51 returned 1 rows
+DataFrame()
++---------+------------+-----------+-------------+----------------+------------------+
+| item_sk | d_date     | web_sales | store_sales | web_cumulative | store_cumulative |
++---------+------------+-----------+-------------+----------------+------------------+
+| 1       | 2001-04-30 | 121.34    |             | 121.34         | 22.38            |
+| 1       | 2001-05-15 |           | 93.47       | 121.34         | 93.47            |
+| 1       | 2001-06-17 | 239.63    |             | 239.63         | 93.47            |
+| 1       | 2001-06-24 |           | 94.80       | 239.63         | 94.80            |
+| 1       | 2001-07-09 |           | 148.10      | 239.63         | 148.10           |
+| 1       | 2001-07-16 |           | 191.66      | 239.63         | 191.66           |
+| 1       | 2001-08-13 | 349.53    |             | 349.53         | 346.98           |
+| 1       | 2001-08-22 | 378.45    | 349.12      | 378.45         | 349.12           |
+| 5       | 2001-07-13 | 362.50    |             | 362.50         | 324.71           |
+| 5       | 2001-07-15 |           | 327.23      | 362.50         | 327.23           |
+| 5       | 2001-07-20 |           | 345.51      | 362.50         | 345.51           |
+| 5       | 2001-07-26 |           | 346.79      | 362.50         | 346.79           |
+| 6       | 2002-01-05 | 94.35     | 60.97       | 94.35          | 60.97            |
+| 12      | 2002-03-18 | 186.43    |             | 186.43         | 107.69           |
+| 12      | 2002-03-23 | 187.56    |             | 187.56         | 107.69           |
+| 13      | 2001-04-05 |           | 17.74       | 53.49          | 17.74            |
+| 13      | 2001-06-23 | 319.56    |             | 319.56         | 319.18           |
+| 13      | 2001-06-27 |           | 319.18      | 319.56         | 319.18           |
+| 15      | 2001-05-19 | 142.70    |             | 142.70         | 54.38            |
+| 15      | 2001-05-25 | 254.99    |             | 254.99         | 54.38            |
++---------+------------+-----------+-------------+----------------+------------------+
+Query 52 returned 1 rows
+DataFrame()
++--------+----------+----------------------+-----------+
+| d_year | brand_id | brand                | ext_price |
++--------+----------+----------------------+-----------+
+| 2000   | 2001002  | amalgimporto #2      | 138459.58 |
+| 2000   | 4001002  | amalgedu pack #2     | 75172.77  |
+| 2000   | 2002001  | importoimporto #1    | 73490.38  |
+| 2000   | 4003001  | exportiedu pack #1   | 61509.01  |
+| 2000   | 3004002  | edu packexporti #2   | 61120.99  |
+| 2000   | 1003002  | exportiamalg #2      | 56170.77  |
+| 2000   | 5004002  | edu packscholar #2   | 55076.09  |
+| 2000   | 3002002  | importoexporti #2    | 52911.02  |
+| 2000   | 1001002  | amalgamalg #2        | 51877.12  |
+| 2000   | 1003001  | exportiamalg #1      | 48861.72  |
+| 2000   | 3003001  | exportiexporti #1    | 45246.85  |
+| 2000   | 2003002  | exportiimporto #2    | 43945.64  |
+| 2000   | 9015009  | scholarunivamalg #9  | 43704.15  |
+| 2000   | 4004001  | edu packedu pack #1  | 43088.86  |
+| 2000   | 3003002  | exportiexporti #2    | 42719.95  |
+| 2000   | 10003016 | exportiunivamalg #16 | 41753.35  |
+| 2000   | 2004002  | edu packimporto #2   | 39517.75  |
+| 2000   | 1002002  | importoamalg #2      | 39419.83  |
+| 2000   | 3002001  | importoexporti #1    | 38871.89  |
+| 2000   | 4004002  | edu packedu pack #2  | 38072.09  |
++--------+----------+----------------------+-----------+
+Query 53 returned 1 rows
+DataFrame()
++---------------+-----------+---------------------+
+| i_manufact_id | sum_sales | avg_quarterly_sales |
++---------------+-----------+---------------------+
+| 115           | 3.33      | 176.990000          |
+| 115           | 22.13     | 176.990000          |
+| 115           | 505.51    | 176.990000          |
+| 37            | 3.03      | 224.796666          |
+| 37            | 11.64     | 224.796666          |
+| 37            | 659.72    | 224.796666          |
+| 929           | 1.85      | 226.820000          |
+| 929           | 451.79    | 226.820000          |
+| 945           | 107.35    | 258.150000          |
+| 945           | 408.95    | 258.150000          |
+| 911           | 48.41     | 303.120000          |
+| 911           | 557.83    | 303.120000          |
+| 441           | 66.59     | 325.262500          |
+| 441           | 281.62    | 325.262500          |
+| 441           | 394.68    | 325.262500          |
+| 441           | 558.16    | 325.262500          |
+| 87            | 11.17     | 327.350000          |
+| 87            | 643.53    | 327.350000          |
+| 321           | 0.19      | 328.900000          |
+| 321           | 657.61    | 328.900000          |
++---------------+-----------+---------------------+
+Query 54 returned 0 rows
+DataFrame()
+++
+++
+Query 55 returned 1 rows
+DataFrame()
++----------+----------------------+-----------+
+| brand_id | brand                | ext_price |
++----------+----------------------+-----------+
+| 5004001  | edu packscholar #1   | 141597.49 |
+| 3001001  | amalgexporti #1      | 117294.38 |
+| 2002001  | importoimporto #1    | 113395.52 |
+| 5002001  | importoscholar #1    | 87346.27  |
+| 4003001  | exportiedu pack #1   | 87079.04  |
+| 4001001  | amalgedu pack #1     | 73768.57  |
+| 1003002  | exportiamalg #2      | 70688.56  |
+| 1002001  | importoamalg #1      | 69055.40  |
+| 3002002  | importoexporti #2    | 66031.41  |
+| 1004002  | edu packamalg #2     | 63504.03  |
+| 1003001  | exportiamalg #1      | 58002.96  |
+| 5003002  | exportischolar #2    | 55584.45  |
+| 2003001  | exportiimporto #1    | 54853.66  |
+| 6003005  | exporticorp #5       | 51349.78  |
+| 9012005  | importounivamalg #5  | 51030.30  |
+| 2001001  | amalgimporto #1      | 48313.48  |
+| 10008003 | namelessunivamalg #3 | 48119.80  |
+| 3004002  | edu packexporti #2   | 46411.53  |
+| 9004009  | edu packmaxi #9      | 45196.98  |
+| 3003002  | exportiexporti #2    | 44857.04  |
++----------+----------------------+-----------+
+Query 56 returned 1 rows
+DataFrame()
++------------------+-------------+
+| i_item_id        | total_sales |
++------------------+-------------+
+| AAAAAAAAGHDAAAAA | 0.00        |
+| AAAAAAAAIDDAAAAA | 2.04        |
+| AAAAAAAAGEJAAAAA | 13.70       |
+| AAAAAAAAEOPCAAAA | 15.24       |
+| AAAAAAAACOKDAAAA | 25.41       |
+| AAAAAAAAIKOAAAAA | 27.20       |
+| AAAAAAAAKANAAAAA | 38.28       |
+| AAAAAAAAGPICAAAA | 41.14       |
+| AAAAAAAAALEEAAAA | 57.89       |
+| AAAAAAAAKNDDAAAA | 62.88       |
+| AAAAAAAAEGGAAAAA | 63.00       |
+| AAAAAAAACCNAAAAA | 72.67       |
+| AAAAAAAADANDAAAA | 78.96       |
+| AAAAAAAAKDCBAAAA | 86.35       |
+| AAAAAAAAGGBDAAAA | 96.37       |
+| AAAAAAAAODEEAAAA | 105.35      |
+| AAAAAAAAAFFBAAAA | 112.56      |
+| AAAAAAAAIPLDAAAA | 115.01      |
+| AAAAAAAAMGHBAAAA | 120.76      |
+| AAAAAAAAIOFEAAAA | 122.74      |
++------------------+-------------+
+Query 57 returned 1 rows
+DataFrame()
++---------------+--------+-------+-------------------+-----------+---------+----------+
+| cc_name       | d_year | d_moy | avg_monthly_sales | sum_sales | psum    | nsum     |
++---------------+--------+-------+-------------------+-----------+---------+----------+
+| Mid Atlantic  | 2000   | 3     | 7895.495000       | 3276.52   | 3934.81 | 4024.61  |
+| North Midwest | 2000   | 3     | 6176.385000       | 1791.37   | 3105.63 | 3188.23  |
+| Mid Atlantic  | 2000   | 6     | 7785.660000       | 3440.55   | 4683.25 | 4499.24  |
+| Mid Atlantic  | 2000   | 4     | 7418.351666       | 3112.94   | 4631.26 | 4244.00  |
+| North Midwest | 2000   | 7     | 7442.359166       | 3247.00   | 3649.91 | 9513.42  |
+| North Midwest | 2000   | 7     | 6584.354166       | 2398.51   | 4637.25 | 9276.12  |
+| Mid Atlantic  | 2000   | 1     | 7418.351666       | 3270.63   | 8220.94 | 4453.90  |
+| Mid Atlantic  | 2000   | 2     | 6223.500833       | 2101.20   | 2841.89 | 4361.48  |
+| North Midwest | 2000   | 2     | 7380.425000       | 3278.42   | 3851.67 | 5933.20  |
+| NY Metro      | 2000   | 7     | 7214.640000       | 3116.25   | 4220.97 | 11591.46 |
+| North Midwest | 2000   | 6     | 7107.686666       | 3013.45   | 3459.51 | 3438.17  |
+| Mid Atlantic  | 2000   | 2     | 7012.902500       | 2927.34   | 4214.10 | 3134.76  |
+| NY Metro      | 2000   | 5     | 7404.577500       | 3400.70   | 4528.54 | 4916.04  |
+| North Midwest | 2000   | 6     | 6778.467500       | 2775.24   | 4046.84 | 4888.85  |
+| North Midwest | 2000   | 5     | 7175.096666       | 3179.22   | 4521.38 | 4058.48  |
+| North Midwest | 2000   | 7     | 7380.425000       | 3384.98   | 4157.78 | 9396.24  |
+| Mid Atlantic  | 2000   | 2     | 7895.495000       | 3934.81   | 6300.07 | 3276.52  |
+| North Midwest | 2000   | 1     | 7175.096666       | 3227.03   | 7488.14 | 3588.71  |
+| NY Metro      | 2000   | 1     | 6413.093333       | 2486.44   | 8369.06 | 3965.32  |
+| Mid Atlantic  | 2000   | 4     | 6797.195833       | 2877.98   | 3594.58 | 3013.63  |
++---------------+--------+-------+-------------------+-----------+---------+----------+
+Query 58 returned 0 rows
+DataFrame()
+++
+++
+Query 59 returned 1 rows
+DataFrame()
++---------------+------------------+-------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+
+| s_store_name1 | s_store_id1      | d_week_seq1 | y.sun_sales1 / x.sun_sales2 | y.mon_sales1 / x.mon_sales2 | y.tue_sales1 / x.tue_sales2 | y.wed_sales1 / x.wed_sales2 | y.thu_sales1 / x.thu_sales2 | y.fri_sales1 / x.fri_sales2 | y.sat_sales1 / x.sat_sales2 |
++---------------+------------------+-------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5244        | 1.133535                    | 0.713526                    | 0.921273                    | 0.600415                    | 0.641560                    | 1.022973                    | 2.117672                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
+| able          | AAAAAAAACAAAAAAA | 5245        | 1.359250                    | 1.062328                    | 0.991195                    | 0.909982                    | 0.897605                    | 1.431441                    | 0.725032                    |
++---------------+------------------+-------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+
+Query 60 returned 1 rows
+DataFrame()
++------------------+-------------+
+| i_item_id        | total_sales |
++------------------+-------------+
+| AAAAAAAAAABEAAAA | 21947.82    |
+| AAAAAAAAAACAAAAA | 3955.35     |
+| AAAAAAAAAACDAAAA | 9763.03     |
+| AAAAAAAAAAEAAAAA | 12488.93    |
+| AAAAAAAAAAFAAAAA | 4810.55     |
+| AAAAAAAAAAGBAAAA | 12975.32    |
+| AAAAAAAAAAHDAAAA | 4738.37     |
+| AAAAAAAAAAICAAAA | 5672.00     |
+| AAAAAAAAAAIDAAAA | 18476.03    |
+| AAAAAAAAAAKAAAAA | 11945.04    |
+| AAAAAAAAAALCAAAA | 2858.44     |
+| AAAAAAAAAAMCAAAA | 12117.33    |
+| AAAAAAAAAANAAAAA | 4943.83     |
+| AAAAAAAAAAOCAAAA | 6706.84     |
+| AAAAAAAAAAODAAAA | 19163.33    |
+| AAAAAAAAAAPCAAAA | 15037.04    |
+| AAAAAAAAABAEAAAA | 13840.46    |
+| AAAAAAAAABCCAAAA | 2796.40     |
+| AAAAAAAAABECAAAA | 34123.63    |
+| AAAAAAAAABKAAAAA | 75.42       |
++------------------+-------------+
+Query 61 returned 1 rows
+DataFrame()
++------------+-------+-------------------------------------------------------------+
+| promotions | total | promotional_sales.promotions / all_sales.total * Int64(100) |
++------------+-------+-------------------------------------------------------------+
+|            |       |                                                             |
++------------+-------+-------------------------------------------------------------+
+Query 62 returned 1 rows
+DataFrame()
++-------------------------------------------------------+-----------+----------+---------+------------+------------+-------------+-----------+
+| substr(warehouse.w_warehouse_name,Int64(1),Int64(20)) | sm_type   | web_name | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++-------------------------------------------------------+-----------+----------+---------+------------+------------+-------------+-----------+
+| Conventional childr                                   | EXPRESS   | site_0   | 320     | 325        | 309        | 314         | 0         |
+| Conventional childr                                   | EXPRESS   | site_1   | 280     | 243        | 274        | 276         | 0         |
+| Conventional childr                                   | EXPRESS   | site_2   | 270     | 279        | 260        | 259         | 0         |
+| Conventional childr                                   | EXPRESS   | site_3   | 307     | 294        | 314        | 302         | 0         |
+| Conventional childr                                   | EXPRESS   | site_4   | 303     | 289        | 316        | 307         | 0         |
+| Conventional childr                                   | LIBRARY   | site_0   | 258     | 229        | 272        | 235         | 0         |
+| Conventional childr                                   | LIBRARY   | site_1   | 223     | 262        | 248        | 255         | 0         |
+| Conventional childr                                   | LIBRARY   | site_2   | 238     | 219        | 202        | 204         | 0         |
+| Conventional childr                                   | LIBRARY   | site_3   | 166     | 208        | 170        | 183         | 0         |
+| Conventional childr                                   | LIBRARY   | site_4   | 206     | 206        | 200        | 218         | 0         |
+| Conventional childr                                   | NEXT DAY  | site_0   | 276     | 276        | 268        | 275         | 0         |
+| Conventional childr                                   | NEXT DAY  | site_1   | 301     | 238        | 289        | 282         | 0         |
+| Conventional childr                                   | NEXT DAY  | site_2   | 267     | 280        | 296        | 314         | 0         |
+| Conventional childr                                   | NEXT DAY  | site_3   | 316     | 323        | 301        | 296         | 0         |
+| Conventional childr                                   | NEXT DAY  | site_4   | 309     | 261        | 301        | 324         | 0         |
+| Conventional childr                                   | OVERNIGHT | site_0   | 205     | 196        | 175        | 203         | 0         |
+| Conventional childr                                   | OVERNIGHT | site_1   | 243     | 228        | 214        | 217         | 0         |
+| Conventional childr                                   | OVERNIGHT | site_2   | 249     | 241        | 276        | 251         | 0         |
+| Conventional childr                                   | OVERNIGHT | site_3   | 257     | 236        | 236        | 232         | 0         |
+| Conventional childr                                   | OVERNIGHT | site_4   | 191     | 182        | 200        | 211         | 0         |
++-------------------------------------------------------+-----------+----------+---------+------------+------------+-------------+-----------+
+Query 63 returned 1 rows
+DataFrame()
++--------------+-----------+-------------------+
+| i_manager_id | sum_sales | avg_monthly_sales |
++--------------+-----------+-------------------+
+| 1            | 556.53    | 1677.624166       |
+| 1            | 722.00    | 1677.624166       |
+| 1            | 927.70    | 1677.624166       |
+| 1            | 1142.84   | 1677.624166       |
+| 1            | 1222.86   | 1677.624166       |
+| 1            | 1233.46   | 1677.624166       |
+| 1            | 2000.07   | 1677.624166       |
+| 1            | 2477.65   | 1677.624166       |
+| 1            | 2888.42   | 1677.624166       |
+| 1            | 3866.41   | 1677.624166       |
+| 2            | 634.40    | 1350.532500       |
+| 2            | 762.50    | 1350.532500       |
+| 2            | 813.94    | 1350.532500       |
+| 2            | 815.46    | 1350.532500       |
+| 2            | 843.79    | 1350.532500       |
+| 2            | 966.76    | 1350.532500       |
+| 2            | 1163.74   | 1350.532500       |
+| 2            | 1507.84   | 1350.532500       |
+| 2            | 1721.76   | 1350.532500       |
+| 2            | 1789.61   | 1350.532500       |
++--------------+-----------+-------------------+
+Query 64 returned 1 rows
+DataFrame()
++------------------------+------------+-----------+-----------------+----------------+-------------+-------+-----------------+------------------+----------------+-------+-------+-----+-------+--------+--------+-------+--------+---------+-------+-----+
+| product_name           | store_name | store_zip | b_street_number | b_street_name  | b_city      | b_zip | c_street_number | c_street_name    | c_city         | c_zip | syear | cnt | s11   | s21    | s31    | s12   | s22    | s32     | syear | cnt |
++------------------------+------------+-----------+-----------------+----------------+-------------+-------+-----------------+------------------+----------------+-------+-------+-----+-------+--------+--------+-------+--------+---------+-------+-----+
+| antiablecallycally     | bar        | 31904     | 652             | 4th Oak        | Highland    | 29454 | 311             | Maple Valley     | Arlington      | 86557 | 2001  | 1   | 4.11  | 4.11   | 0.00   | 23.01 | 26.46  | 0.00    | 2002  | 1   |
+| antiablecallycally     | bar        | 31904     | 728             | Jackson Spring | Woodlawn    | 54098 | 634             | Hillcrest        | Harmon         | 95623 | 2001  | 1   | 19.99 | 22.18  | 0.00   | 23.01 | 26.46  | 0.00    | 2002  | 1   |
+| antiablecallycally     | eing       | 35709     | 708             | Forest         | Liberty     | 73451 | 687             | West             | Concord        | 34107 | 2001  | 1   | 37.88 | 66.29  | 0.00   | 57.24 | 109.32 | 0.00    | 2002  | 1   |
+| antiablecallycally     | eing       | 35709     | 708             | Forest         | Liberty     | 73451 | 687             | West             | Concord        | 34107 | 2001  | 1   | 37.88 | 66.29  | 0.00   | 67.64 | 126.48 | 3235.75 | 2002  | 1   |
+| antiablecallycally     | eing       | 35709     | 708             | Forest         | Liberty     | 73451 | 687             | West             | Concord        | 34107 | 2001  | 1   | 37.88 | 66.29  | 0.00   | 89.78 | 107.73 | 0.00    | 2002  | 1   |
+| antiablecallycally     | ought      | 31904     | 720             | Hill Walnut    | Glendale    | 43951 | 673             | Walnut South     | Green Acres    | 57683 | 2001  | 1   | 88.62 | 114.31 | 0.00   | 83.45 | 161.89 | 0.00    | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 465             | 4th Hickory    | Clifton     | 48014 | 165             | Sunset Church    | Pleasant Grove | 34136 | 2001  | 1   | 13.41 | 18.77  | 101.20 | 49.69 | 62.11  | 0.00    | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 465             | 4th Hickory    | Clifton     | 48014 | 165             | Sunset Church    | Pleasant Grove | 34136 | 2001  | 1   | 13.41 | 18.77  | 101.20 | 86.32 | 138.97 | 5332.03 | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 213             | Washington 8th | White Hall  | 36955 | 84              | 8th Maple        | Oakwood        | 60169 | 2001  | 1   | 21.08 | 32.88  | 277.55 | 49.69 | 62.11  | 0.00    | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 213             | Washington 8th | White Hall  | 36955 | 84              | 8th Maple        | Oakwood        | 60169 | 2001  | 1   | 21.08 | 32.88  | 277.55 | 86.32 | 138.97 | 5332.03 | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 452             | 4th            | Hopewell    | 30587 | 119             | Cherry           | Fairview       | 75709 | 2001  | 1   | 54.22 | 90.00  | 0.00   | 49.69 | 62.11  | 0.00    | 2002  | 1   |
+| antiationcallyese      | eing       | 35709     | 452             | 4th            | Hopewell    | 30587 | 119             | Cherry           | Fairview       | 75709 | 2001  | 1   | 54.22 | 90.00  | 0.00   | 86.32 | 138.97 | 5332.03 | 2002  | 1   |
+| anticallyeingable      | eing       | 35709     | 395             | 13th Green     | Liberty     | 63451 | 796             | Spring           | Lincoln        | 71289 | 2001  | 1   | 29.95 | 37.13  | 283.26 | 23.98 | 47.72  | 34.60   | 2002  | 1   |
+| anticallyeingable      | eing       | 35709     | 395             | 13th Green     | Liberty     | 63451 | 796             | Spring           | Lincoln        | 71289 | 2001  | 1   | 29.95 | 37.13  | 283.26 | 59.12 | 74.49  | 151.64  | 2002  | 1   |
+| anticallyeingable      | ese        | 31904     |                 |                |             |       | 649             | 8th Lincoln      | Tabor          | 28529 | 2001  | 1   | 46.29 | 75.45  | 0.00   | 22.27 | 34.74  | 1.14    | 2002  | 1   |
+| anticallyeingable      | ese        | 31904     | 893             | 7th            | Highland    | 49454 | 314             | Church Madison   | Oak Hill       | 87838 | 2001  | 1   | 89.89 | 172.58 | 0.00   | 22.27 | 34.74  | 1.14    | 2002  | 1   |
+| ationantiantiation     | able       | 31904     | 890             | Johnson Main   | Fairview    | 55709 | 396             | Locust Hill      | Summit         | 90499 | 2001  | 1   | 9.79  | 17.13  | 0.00   | 75.47 | 101.88 | 0.00    | 2002  | 1   |
+| ationantiantiation     | able       | 31904     | 959             | Poplar         | Avoca       | 30540 | 403             | Hill West        | Wilson         | 76971 | 2001  | 1   | 57.51 | 108.11 | 0.00   | 75.47 | 101.88 | 0.00    | 2002  | 1   |
+| ationoughteingeseought | ought      | 31904     | 701             | View           | Riverdale   | 59391 | 906             | 1st Willow       | Farmington     | 59145 | 2001  | 1   | 16.98 | 19.52  | 0.00   | 76.81 | 90.63  | 0.00    | 2002  | 1   |
+| ationoughteingeseought | ought      | 31904     | 435             | 1st            | Buena Vista | 06352 | 345             | Walnut Jefferson | Kingston       | 44975 | 2001  | 1   | 80.17 | 97.80  | 0.00   | 76.81 | 90.63  | 0.00    | 2002  | 1   |
++------------------------+------------+-----------+-----------------+----------------+-------------+-------+-----------------+------------------+----------------+-------+-------+-----+-------+--------+--------+-------+--------+---------+-------+-----+
+Query 65 returned 1 rows
+DataFrame()
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+-----------------+------------------+---------------------+
+| s_store_name | i_item_desc                                                                                                                                                                                             | revenue | i_current_price | i_wholesale_cost | i_brand             |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+-----------------+------------------+---------------------+
+| able         | Absolutely only blues ask new consequences; also reduced risks may shift simply. White, sorry countries establish long despite the devices. Activ                                                       | 34.93   | 3.57            | 2.78             | amalgexporti #1     |
+| able         | Advantages w                                                                                                                                                                                            | 7.06    | 1.04            | 0.70             | exportimaxi #5      |
+| able         | American, so-called shoulders will write less shares. Long names could                                                                                                                                  | 28.19   | 52.50           | 45.15            | edu packedu pack #1 |
+| able         | At last valid problems see as well single, political teams; worldwide widespread words get recent                                                                                                       | 6.22    | 0.92            | 0.42             | namelessnameless #9 |
+| able         | Close, present tears boost almost parties. Seasons can leave formerly now political books. Relationships pick daily,                                                                                    | 36.09   | 2.21            | 1.21             | exportinameless #10 |
+| able         | Commercial tories present very on a industries. Close strong classes might cause to a men. Professional organisms can incorporate even sharp goods                                                      | 15.72   | 7.41            | 3.18             | exportiedu pack #1  |
+| able         | Conscious years give up to additionally unacceptable for                                                                                                                                                | 20.49   | 3.81            | 1.67             | importoexporti #1   |
+| able         | Consequences agree owners; immediately sure cards record. Again scottish variations think specifically. Extraordinarily different taxes develop enough about a surroundings. Forward, public clothes es | 31.85   | 8.30            | 3.32             | importobrand #4     |
+| able         | Critical, royal women like significantly in the contracts. So public police used to describe ani                                                                                                        | 6.30    | 4.57            | 1.87             | edu packamalg #1    |
+| able         | Existing children can set again principal courses. Students might say artists. Russian, high words fail always companies. More large recordings would know well years. Restrictio                       | 10.73   | 1.63            | 0.65             | amalgunivamalg #2   |
+| able         | Following, certain parents know still. Then special thanks yield definitely to a levels. Empty facilities could not recommend in a stations. Slow, public operations guarantee prices;                  | 4.68    | 6.67            | 2.20             | amalgimporto #2     |
+| able         | Giant, logical systems like about hereby large letters. Ways belong. Democratic communications should affect warmly clean others. Able relations scratch running han                                    | 15.94   | 3.06            | 2.57             | importobrand #6     |
+| able         | Good, english words say. Pp. make unfortunately even obvious wages. Holy parents commit anxio                                                                                                           | 15.38   | 5.43            | 4.45             | importomaxi #3      |
+| able         | Growing problems shall cover now. Most short qualifications could come exceedingly. Problems divide. Too marine governors disclose forever industrial cases. Rich pools could make most. So civ         | 14.88   | 1.23            | 0.89             | amalgscholar #1     |
+| able         | Immediate, central categories get                                                                                                                                                                       | 34.61   | 0.56            | 0.30             | amalgimporto #2     |
+| able         | Lips could require now inc teachers. Banks will not know in order in a systems. Extra, good hundreds might produce because of a friends. Necessary, suspicious others resist logical,                   | 25.43   | 3.97            | 2.85             | importoamalg #2     |
+| able         | Little objectives shall not make upwards writings. Powe                                                                                                                                                 | 26.24   | 0.35            | 0.12             | amalgimporto #2     |
+| able         | More united ideas will formulate even really accessible pilots. Effective, considerable themes may carry for a rights. So limited costs must build quickly members. Mont                                | 6.39    | 0.16            | 0.13             | amalgexporti #1     |
+| able         | Old personnel shall take thus existing, top goods. Stones c                                                                                                                                             | 15.59   | 2.92            | 2.16             | amalgmaxi #10       |
+| able         | Shares might make quite harsh countries. Bad sales might not pretend of course nice arms. Never young hours learn. H                                                                                    | 30.41   | 9.36            | 2.80             | univnameless #6     |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+-----------------+------------------+---------------------+
+Query 66 returned 1 rows
+DataFrame()
++----------------------+-------------------+----------+-------------------+---------+---------------+---------------+------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| w_warehouse_name     | w_warehouse_sq_ft | w_city   | w_county          | w_state | w_country     | ship_carriers | year | jan_sales   | feb_sales   | mar_sales   | apr_sales   | may_sales   | jun_sales   | jul_sales   | aug_sales   | sep_sales   | oct_sales   | nov_sales   | dec_sales   | jan_sales_per_sq_foot | feb_sales_per_sq_foot | mar_sales_per_sq_foot | apr_sales_per_sq_foot | may_sales_per_sq_foot | jun_sales_per_sq_foot | jul_sales_per_sq_foot | aug_sales_per_sq_foot | sep_sales_per_sq_foot | oct_sales_per_sq_foot | nov_sales_per_sq_foot | dec_sales_per_sq_foot | jan_net     | feb_net     | mar_net     | apr_net     | may_net     | jun_net     | jul_net     | aug_net     | sep_net     | oct_net     | nov_net     | dec_net     |
++----------------------+-------------------+----------+-------------------+---------+---------------+---------------+------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| Conventional childr  | 977787            | Fairview | Williamson County | TN      | United States | FEDEX,GERMA   | 2001 | 16347527.69 | 15010566.49 | 20661398.10 | 13978032.14 | 20345395.78 | 12328644.39 | 21088623.19 | 43740862.21 | 37363098.66 | 36975922.21 | 71699232.05 | 62504376.44 | 16.718904             | 15.351570             | 21.130775             | 14.295579             | 20.807594             | 12.608721             | 21.567706             | 44.734550             | 38.211899             | 37.815926             | 73.328068             | 63.924327             | 16093940.98 | 12292343.15 | 14705917.59 | 12664532.26 | 13906346.50 | 17491872.62 | 19475706.47 | 27874783.92 | 31661948.44 | 33632167.70 | 53794887.23 | 54918130.40 |
+| Of course ot         | 138504            | Fairview | Williamson County | TN      | United States | FEDEX,GERMA   | 2001 | 12676539.78 | 18965161.12 | 12465108.33 | 15124070.03 | 28604909.88 | 17464900.61 | 20865208.39 | 54606157.76 | 37898301.62 | 46677540.21 | 58327407.30 | 63050546.40 | 91.524719             | 136.928616            | 89.998182             | 109.195907            | 206.527680            | 126.096723            | 150.646972            | 394.256900            | 273.626043            | 337.012217            | 421.124351            | 455.225454            | 16878374.79 | 17563017.28 | 15161378.25 | 13779350.76 | 10680276.11 | 15315810.40 | 12454627.55 | 33027915.86 | 21918537.07 | 36536576.38 | 43304988.61 | 58261232.26 |
+| Social, royal laws m | 294242            | Fairview | Williamson County | TN      | United States | FEDEX,GERMA   | 2001 | 12775914.37 | 16006627.47 | 26003273.29 | 10814585.35 | 18134336.42 | 20550918.71 | 22076091.52 | 33432311.24 | 41097944.32 | 45442056.63 | 55673178.27 | 69814499.78 | 43.419750             | 54.399532             | 88.373763             | 36.754049             | 61.630685             | 69.843593             | 75.026989             | 113.621818            | 139.673955            | 154.437695            | 189.208808            | 237.268981            | 15572830.50 | 13901637.46 | 14009994.77 | 11067325.83 | 22694385.98 | 13847677.49 | 15641962.07 | 39444297.30 | 31913225.24 | 38263373.21 | 45105338.56 | 51252851.12 |
+| Terms overcome instr | 621234            | Fairview | Williamson County | TN      | United States | FEDEX,GERMA   | 2001 | 22113781.46 | 13954933.34 | 15779492.30 | 22189612.87 | 20349632.54 | 15644946.75 | 28685796.08 | 35651642.90 | 36071888.92 | 41301165.33 | 52447150.20 | 58004459.33 | 35.596540             | 22.463247             | 25.400239             | 35.718606             | 32.756790             | 25.183661             | 46.175508             | 57.388427             | 58.064898             | 66.482460             | 84.424146             | 93.369743             | 17265170.91 | 11696568.79 | 22420911.82 | 12378050.67 | 16459043.66 | 18755216.71 | 12374193.61 | 32887902.56 | 29055746.64 | 39490580.73 | 52338194.14 | 50077424.10 |
+|                      |                   | Fairview | Williamson County | TN      | United States | FEDEX,GERMA   | 2001 | 17721109.48 | 12230881.60 | 18276280.01 | 17197341.58 | 25368302.34 | 14460807.59 | 20193915.83 | 38398261.59 | 36408886.53 | 28830938.28 | 57560963.23 | 68454750.12 |                       |                       |                       |                       |                       |                       |                       |                       |                       |                       |                       |                       | 13798518.17 | 11012738.79 | 14193942.24 | 11830551.00 | 14043519.71 | 9117963.43  | 15106642.80 | 36407717.37 | 35911195.93 | 40663461.24 | 39407801.67 | 63898055.83 |
++----------------------+-------------------+----------+-------------------+---------+---------------+---------------+------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+Query 67 returned 1 rows
+DataFrame()
++------------+-----------+--------------------+----------------+--------+-------+-------+------------+------------+-----+
+| i_category | i_class   | i_brand            | i_product_name | d_year | d_qoy | d_moy | s_store_id | sumsales   | rk  |
++------------+-----------+--------------------+----------------+--------+-------+-------+------------+------------+-----+
+| Books      | arts      | amalgmaxi #11      |                |        |       |       |            | 861756.42  | 67  |
+| Books      | arts      | amalgmaxi #2       |                |        |       |       |            | 762167.55  | 81  |
+| Books      | arts      | amalgmaxi #3       |                |        |       |       |            | 823182.27  | 72  |
+| Books      | arts      | amalgmaxi #5       |                |        |       |       |            | 566289.04  | 100 |
+| Books      | arts      | amalgmaxi #8       |                |        |       |       |            | 723892.80  | 83  |
+| Books      | arts      | amalgmaxi #9       |                |        |       |       |            | 798302.74  | 75  |
+| Books      | arts      |                    |                |        |       |       |            | 5166331.25 | 16  |
+| Books      | business  | importomaxi #2     |                |        |       |       |            | 1088170.08 | 43  |
+| Books      | business  | importomaxi #5     |                |        |       |       |            | 583306.06  | 97  |
+| Books      | business  | importomaxi #8     |                |        |       |       |            | 992362.81  | 53  |
+| Books      | business  | importomaxi #9     |                |        |       |       |            | 1272232.64 | 32  |
+| Books      | business  |                    |                |        |       |       |            | 5517315.22 | 15  |
+| Books      | computers | exportimaxi #2     |                |        |       |       |            | 1583294.02 | 21  |
+| Books      | computers | exportimaxi #3     |                |        |       |       |            | 916081.12  | 59  |
+| Books      | computers | exportimaxi #5     |                |        |       |       |            | 783281.40  | 78  |
+| Books      | computers | exportimaxi #8     |                |        |       |       |            | 1272829.19 | 31  |
+| Books      | computers | exportimaxi #9     |                |        |       |       |            | 1022708.85 | 50  |
+| Books      | computers |                    |                |        |       |       |            | 6825799.71 | 6   |
+| Books      | cooking   | amalgunivamalg #11 |                |        |       |       |            | 686008.49  | 85  |
+| Books      | cooking   | amalgunivamalg #2  |                |        |       |       |            | 568951.70  | 99  |
++------------+-----------+--------------------+----------------+--------+-------+-------+------------+------------+-----+
+Query 68 returned 1 rows
+DataFrame()
++-------------+--------------+---------------+----------------+------------------+----------------+--------------+------------+
+| c_last_name | c_first_name | ca_city       | bought_city    | ss_ticket_number | extended_price | extended_tax | list_price |
++-------------+--------------+---------------+----------------+------------------+----------------+--------------+------------+
+| Abbott      | Joseph       | Greenfield    | Midway         | 62751            | 26919.52       | 1116.58      | 57080.40   |
+| Abbott      | Harriet      | Wesley        | Forest Hills   | 84405            | 22861.50       | 1369.56      | 44009.90   |
+| Abney       | Louis        | Gladstone     | Green Acres    | 140967           | 19446.55       | 877.95       | 32461.55   |
+| Acosta      | Johnnie      | Centerville   | Enterprise     | 69183            | 11146.93       | 215.50       | 17512.59   |
+| Adair       | Kimberly     | Centerville   | Forest Hills   | 157619           | 14342.77       | 506.62       | 49363.10   |
+| Adams       | Jonathon     | Highland Park | Pleasant Grove | 26218            | 19024.55       | 813.18       | 38782.23   |
+| Adams       | Michelle     | Unionville    | Hillcrest      | 55515            | 24054.10       | 1006.01      | 60759.95   |
+| Adams       | Genevieve    | Enterprise    | Union Hill     | 109910           | 38112.60       | 2078.45      | 68698.50   |
+| Adams       | David        | Bridgeport    | Antioch        | 213366           | 7487.49        | 228.52       | 16742.78   |
+| Adkins      | Daniel       | Wilson        | Providence     | 131164           | 20810.88       | 812.72       | 50529.61   |
+| Agee        | Delores      | Fairfield     | Hamilton       | 97225            | 17627.01       | 1101.96      | 40912.72   |
+| Aguayo      | John         | Newport       | Newtown        | 156381           | 17415.30       | 555.87       | 31082.28   |
+| Aguayo      | Jeanne       | Glendale      | Hopewell       | 199409           | 17356.43       | 490.29       | 37515.47   |
+| Aguilar     | Arlene       | Ashland       | Brownsville    | 121548           | 13624.34       | 279.31       | 23107.22   |
+| Aguilar     | Kathryne     | Salem         | Woodville      | 156419           | 36128.26       | 1084.53      | 48892.65   |
+| Aiken       | James        | Mount Olive   | Crossroads     | 212463           | 9289.59        | 423.25       | 28809.98   |
+| Albright    | Terrence     | Five Points   | Farmington     | 18171            | 39215.52       | 1528.79      | 67021.54   |
+| Alcorn      | Johanna      | Sutton        | Red Hill       | 165788           | 12402.98       | 366.97       | 31714.80   |
+| Alexander   | April        | Highland Park | Plainview      | 112536           | 18165.40       | 944.52       | 37457.24   |
+| Alexander   | Jeremy       | Riverside     | Maple Grove    | 122183           | 9652.47        | 271.52       | 16909.72   |
++-------------+--------------+---------------+----------------+------------------+----------------+--------------+------------+
+Query 69 returned 1 rows
+DataFrame()
++-----------+-------------------+---------------------+------+----------------------+------+------------------+------+
+| cd_gender | cd_marital_status | cd_education_status | cnt1 | cd_purchase_estimate | cnt2 | cd_credit_rating | cnt3 |
++-----------+-------------------+---------------------+------+----------------------+------+------------------+------+
+| F         | D                 | 2 yr Degree         | 1    | 500                  | 1    | Unknown          | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 1000                 | 1    | High Risk        | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 3500                 | 1    | Good             | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 3500                 | 1    | Low Risk         | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 4000                 | 1    | High Risk        | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 7500                 | 1    | Unknown          | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 8000                 | 1    | High Risk        | 1    |
+| F         | D                 | 2 yr Degree         | 1    | 9500                 | 1    | Low Risk         | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 1000                 | 1    | High Risk        | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 2000                 | 1    | High Risk        | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 2000                 | 1    | Low Risk         | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 4500                 | 1    | Low Risk         | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 5500                 | 1    | Low Risk         | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 7500                 | 1    | Unknown          | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 9500                 | 1    | High Risk        | 1    |
+| F         | D                 | 4 yr Degree         | 1    | 10000                | 1    | Unknown          | 1    |
+| F         | D                 | Advanced Degree     | 1    | 1000                 | 1    | Low Risk         | 1    |
+| F         | D                 | Advanced Degree     | 1    | 3000                 | 1    | High Risk        | 1    |
+| F         | D                 | Advanced Degree     | 1    | 3000                 | 1    | Unknown          | 1    |
+| F         | D                 | Advanced Degree     | 1    | 4000                 | 1    | Unknown          | 1    |
++-----------+-------------------+---------------------+------+----------------------+------+------------------+------+
+Query 70 failed: External error: External error: This feature is not implemented: physical plan is not yet implemented for GROUPING aggregate function
+Query 71 returned 1 rows
+DataFrame()
++----------+-----------------------+--------+----------+-----------+
+| brand_id | brand                 | t_hour | t_minute | ext_price |
++----------+-----------------------+--------+----------+-----------+
+| 1003002  | exportiamalg #2       | 17     | 40       |           |
+| 2004001  | edu packunivamalg #8  | 18     | 20       |           |
+| 4002001  | scholarmaxi #6        | 18     | 43       |           |
+| 4003001  | exportiexporti #2     | 17     | 4        |           |
+| 4003002  | exportiedu pack #2    | 9      | 8        |           |
+| 6012008  | importobrand #8       | 8      | 41       |           |
+| 6015006  | scholarbrand #6       | 17     | 6        |           |
+| 8005009  | corpnameless #10      | 19     | 18       |           |
+| 10005003 | amalgscholar #2       | 9      | 42       |           |
+| 6012008  | importobrand #8       | 18     | 52       | 22262.66  |
+| 8005008  | scholarnameless #8    | 7      | 41       | 20737.53  |
+| 9014004  | edu packunivamalg #4  | 18     | 29       | 15861.72  |
+| 6005005  | edu packnameless #8   | 19     | 35       | 15484.00  |
+| 3001002  | amalgexporti #2       | 19     | 43       | 15156.37  |
+| 10013013 | exportiamalgamalg #13 | 9      | 33       | 15038.06  |
+| 6009001  | amalgamalg #2         | 19     | 54       | 14510.88  |
+| 9014003  | scholarunivamalg #9   | 17     | 57       | 14035.70  |
+| 1003002  | exportiamalg #2       | 18     | 35       | 13983.35  |
+| 10014001 | maxibrand #4          | 18     | 37       | 13774.25  |
+| 5001001  | brandunivamalg #11    | 9      | 56       | 13390.17  |
++----------+-----------------------+--------+----------+-----------+
+Query 72 returned 1 rows
+DataFrame()
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------+----------+-------+-----------+
+| i_item_desc                                                                                                                                                                                       | w_warehouse_name     | d_week_seq | no_promo | promo | total_cnt |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------+----------+-------+-----------+
+| Annual, red circumstances see simply by a scientists. Tory eyebrows shall not see positively new parts. Personal boxes disagree. Red, alternative approaches acquire. Tomorrow native thanks ma   |                      | 5175       | 0        | 2     | 2         |
+| Apparent, old members should gain then outdoor properties. Feet ought to persuade. Good casual programmes should not want locally powers. Frequently military producers can change servic         |                      | 5217       | 0        | 2     | 2         |
+| Boys used to argue civil, future refugees. Mental decisions could not stop spiritual newspapers. Sources present international parents. Expected, different reasons will not see simply serious s |                      | 5201       | 0        | 2     | 2         |
+| Difficult, public women go so forces. New, small reasons should not think. Partly common policies seem at least available makers. So large children must appear only tory,                        | Conventional childr  | 5213       | 0        | 2     | 2         |
+| Economic scientists cannot give readily italian savings. Just lesser thoughts need lightly lar                                                                                                    | Conventional childr  | 5176       | 0        | 2     | 2         |
+| Electronic, popular women ought to believe narrowly technical areas. Psychiatric goods hear widely. Other surroundings shall come for example fashionable, main managers. Financial               | Of course ot         | 5185       | 0        | 2     | 2         |
+| English, effective thousands make                                                                                                                                                                 | Terms overcome instr | 5185       | 0        | 2     | 2         |
+| Folk want still sections. Then real areas leave yes                                                                                                                                               | Social, royal laws m | 5214       | 0        | 2     | 2         |
+| Furth                                                                                                                                                                                             | Terms overcome instr | 5213       | 0        | 2     | 2         |
+| Great, ordinary houses should not express. Origins might offer mor                                                                                                                                | Conventional childr  | 5210       | 0        | 2     | 2         |
+| Here certain duties reach then in a volunteers. Else dynamic police shall seem simply growing services. Yellow effects may not use there important artists. Contemporary, willing e               | Terms overcome instr | 5217       | 0        | 2     | 2         |
+| Honest communities want little massive, serious powers; too different communications obtain                                                                                                       | Conventional childr  | 5185       | 0        | 2     | 2         |
+| Honest communities want little massive, serious powers; too different communications obtain                                                                                                       |                      | 5185       | 0        | 2     | 2         |
+| Large points get even children. Specific streets rest on to a authorities. Better old trousers should protect old, great restrictions. More annual circ                                           | Of course ot         | 5217       | 0        | 2     | 2         |
+| Much complete needs read. Increases can give                                                                                                                                                      | Social, royal laws m | 5213       | 0        | 2     | 2         |
+| Other, new trees shall find however severe holders. Presidential, slo                                                                                                                             | Social, royal laws m | 5188       | 0        | 2     | 2         |
+| Really strong deposits gather                                                                                                                                                                     | Social, royal laws m | 5185       | 0        | 2     | 2         |
+| Roughly current cats would think newly pensions. Now central others collect to a fingers. Local, good relationships ought to make lucky                                                           | Conventional childr  | 5217       | 0        | 2     | 2         |
+| Substantial, new men would mind. Odd, international police should not pay now very players; similar, social alternatives s                                                                        | Social, royal laws m | 5185       | 0        | 2     | 2         |
+| Suppliers decide friendly, foreign                                                                                                                                                                | Of course ot         | 5175       | 0        | 2     | 2         |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+------------+----------+-------+-----------+
+Query 73 returned 1 rows
+DataFrame()
++-------------+--------------+--------------+-----------------------+------------------+-----+
+| c_last_name | c_first_name | c_salutation | c_preferred_cust_flag | ss_ticket_number | cnt |
++-------------+--------------+--------------+-----------------------+------------------+-----+
+| Carlson     | Bertha       | Dr.          | Y                     | 29443            | 5   |
+| Thomas      |              |              | Y                     | 151591           | 5   |
++-------------+--------------+--------------+-----------------------+------------------+-----+
+Query 74 returned 1 rows
+DataFrame()
++------------------+---------------------+--------------------+
+| customer_id      | customer_first_name | customer_last_name |
++------------------+---------------------+--------------------+
+| AAAAAAAALJHFBAAA | Charles             | Aaron              |
+| AAAAAAAAADOBBAAA | Phillip             | Abbott             |
+| AAAAAAAACHHBBAAA | Eduardo             | Abernathy          |
+| AAAAAAAADBHDBAAA | Bridget             | Abney              |
+| AAAAAAAAMOGNAAAA | Eric                | Abney              |
+| AAAAAAAALAGGAAAA | Marcia              | Abrams             |
+| AAAAAAAAHKNABAAA | Sharon              | Acevedo            |
+| AAAAAAAAANIHAAAA | Victor              | Acosta             |
+| AAAAAAAAJOOJAAAA | Daniel              | Adame              |
+| AAAAAAAAHGAFBAAA | Brenda              | Adams              |
+| AAAAAAAAKOODAAAA | Gary                | Adams              |
+| AAAAAAAABPKMAAAA | Michael             | Adams              |
+| AAAAAAAAHBOAAAAA | Pablo               | Adams              |
+| AAAAAAAAONFHBAAA | Stephen             | Adams              |
+| AAAAAAAAIBKHAAAA | Susan               | Adams              |
+| AAAAAAAAMCEEBAAA | Michael             | Adkins             |
+| AAAAAAAABJIHAAAA | Katherine           | Adler              |
+| AAAAAAAABOHEAAAA | Delores             | Agee               |
+| AAAAAAAAODGDBAAA | Gladys              | Aguilera           |
+| AAAAAAAANKLCBAAA | Michelle            | Aguilera           |
++------------------+---------------------+--------------------+
+Query 75 failed: External error: External error: External error: External error: Arrow error: Invalid argument error: RowConverter column schema mismatch, expected Int32 got Int64
+Query 76 returned 1 rows
+DataFrame()
++---------+---------------------+--------+-------+-------------+-----------+-----------+
+| channel | col_name            | d_year | d_qoy | i_category  | sales_cnt | sales_amt |
++---------+---------------------+--------+-------+-------------+-----------+-----------+
+| catalog | cs_bill_customer_sk | 1998   | 1     | Books       | 11        | 831.89    |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Children    | 12        | 19265.11  |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Electronics | 16        | 6008.82   |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Home        | 9         | 9927.12   |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Jewelry     | 10        | 30472.71  |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Men         | 7         | 6998.10   |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Music       | 13        | 1292.12   |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Shoes       | 10        | 929.61    |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Sports      | 9         | 157.76    |
+| catalog | cs_bill_customer_sk | 1998   | 1     | Women       | 9         | 22636.20  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Books       | 13        | 20356.89  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Children    | 9         | 13546.78  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Electronics | 6         | 4502.94   |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Home        | 7         | 13922.53  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Jewelry     | 7         | 13572.25  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Men         | 3         |           |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Music       | 21        | 31299.15  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Shoes       | 14        | 20464.86  |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Sports      | 10        | 8559.56   |
+| catalog | cs_bill_customer_sk | 1998   | 2     | Women       | 16        | 18721.98  |
++---------+---------------------+--------+-------+-------------+-----------+-----------+
+Query 77 returned 1 rows
+DataFrame()
++-----------------+----+--------------+------------+--------------+
+| channel         | id | sales        | returns    | profit       |
++-----------------+----+--------------+------------+--------------+
+| catalog channel | 1  | 136496133.90 | 1977144.03 | -14857629.58 |
+| catalog channel | 3  | 133445712.80 | 1977144.03 | -13874851.83 |
+| catalog channel | 5  | 136849440.15 | 1977144.03 | -15427339.98 |
+| catalog channel |    | 408384226.65 | 9885720.15 | -46663869.55 |
+| store channel   | 1  | 19638349.68  | 474304.95  | -8836808.53  |
+| store channel   | 2  | 18979671.24  | 563536.42  | -8428489.93  |
+| store channel   | 4  | 19478905.32  | 402779.93  | -8542435.83  |
+| store channel   | 7  | 18397866.79  | 460011.92  | -8059899.92  |
+| store channel   | 8  | 19543644.01  | 399948.74  | -8535878.60  |
+| store channel   | 10 | 18104525.85  | 552007.64  | -8475682.69  |
+| store channel   |    | 114142962.89 | 2852589.60 | -50879195.50 |
+| web channel     | 1  | 1274569.95   | 32141.65   | -157443.67   |
+| web channel     | 3  | 1467822.20   | 11650.90   | -97169.94    |
+| web channel     | 5  | 1522672.04   | 63923.25   | -135721.32   |
+| web channel     | 7  | 1419197.25   | 38482.81   | -292131.82   |
+| web channel     | 9  | 1244935.00   | 26082.22   | -185814.35   |
+| web channel     | 11 | 1421206.01   | 38307.41   | -220901.60   |
+| web channel     | 13 | 1547449.37   | 45752.94   | -155657.88   |
+| web channel     | 15 | 1574052.74   | 29391.99   | -246867.62   |
+| web channel     | 17 | 1508652.70   | 36910.78   | -195217.65   |
++-----------------+----+--------------+------------+--------------+
+Query 78 returned 1 rows
+DataFrame()
++----------------+-------+-----------+----------------------+-------------------+----------------+---------------------------+------------------------+
+| ss_customer_sk | ratio | store_qty | store_wholesale_cost | store_sales_price | other_chan_qty | other_chan_wholesale_cost | other_chan_sales_price |
++----------------+-------+-----------+----------------------+-------------------+----------------+---------------------------+------------------------+
+| 525            | 0.0   | 6         | 59.38                | 13.01             | 45             | 58.93                     | 39.34                  |
+| 811            | 31.0  | 63        | 50.39                | 18.25             | 2              | 38.41                     | 48.85                  |
+| 1861           | 0.0   | 11        | 18.36                | 20.64             | 69             | 74.03                     | 19.58                  |
+| 3316           | 0.0   | 46        | 13.40                | 16.82             | 59             | 44.18                     | 13.89                  |
+| 3749           | 0.0   | 42        | 48.38                | 70.63             | 51             | 86.44                     | 105.92                 |
+| 4169           | 0.0   | 12        | 86.88                | 31.03             | 25             | 80.41                     | 66.61                  |
+| 5136           | 0.0   | 1         | 74.19                | 23.14             | 5              | 4.56                      | 2.21                   |
+| 5138           | 1.0   | 82        | 31.33                | 4.03              | 43             | 91.69                     | 110.94                 |
+| 5835           | 5.0   | 72        | 13.68                | 19.09             | 13             | 97.46                     | 114.46                 |
+| 6072           | 1.0   | 99        | 41.23                | 11.82             | 80             | 6.43                      | 1.73                   |
+| 6148           | 1.0   | 56        | 86.19                | 24.13             | 46             | 26.20                     | 27.48                  |
+| 6292           | 0.0   | 58        | 48.57                | 47.60             | 86             | 76.47                     | 24.26                  |
+| 6426           | 0.0   | 56        | 21.38                | 38.58             | 62             | 86.34                     | 2.98                   |
+| 6529           | 1.0   | 84        | 95.88                | 107.57            | 67             | 55.83                     | 23.88                  |
+| 6968           | 0.0   | 22        | 69.07                | 34.88             | 24             | 52.81                     | 107.62                 |
+| 7005           | 1.0   | 75        | 71.79                | 13.52             | 49             | 61.52                     | 38.88                  |
+| 7161           | 2.0   | 59        | 6.97                 | 8.38              | 29             | 20.05                     | 43.18                  |
+| 7244           | 1.0   | 92        | 57.24                | 13.73             | 84             | 44.59                     | 71.89                  |
+| 9555           | 1.0   | 100       | 24.12                | 18.69             | 77             | 81.64                     | 17.14                  |
+| 9932           | 1.0   | 90        | 32.60                | 35.01             | 88             | 38.45                     | 28.38                  |
++----------------+-------+-----------+----------------------+-------------------+----------------+---------------------------+------------------------+
+Query 79 returned 1 rows
+DataFrame()
++-------------+--------------+--------------------------------------+------------------+----------+-----------+
+| c_last_name | c_first_name | substr(ms.s_city,Int64(1),Int64(30)) | ss_ticket_number | amt      | profit    |
++-------------+--------------+--------------------------------------+------------------+----------+-----------+
+| Abbott      | Harriet      | Midway                               | 111376           | 0.00     | -2946.62  |
+| Abel        | Ida          | Fairview                             | 130398           | 1793.62  | -6395.73  |
+| Abrams      | Fannie       | Midway                               | 177397           | 7743.84  | -13060.99 |
+| Ackerman    | Jeffrey      | Midway                               | 198943           | 1002.45  | -5494.51  |
+| Adams       | Beth         | Midway                               | 73934            | 3831.86  | -20607.93 |
+| Adams       | Farrah       | Midway                               | 65201            | 0.00     | -686.63   |
+| Adams       | Juan         | Fairview                             | 216356           | 582.88   | -8911.99  |
+| Adams       | Kimberly     | Midway                               | 42898            | 3389.37  | -4579.24  |
+| Adams       | Lashawn      | Fairview                             | 3833             | 3916.66  | 5.79      |
+| Adams       | Matilde      | Midway                               | 3209             | 13266.23 | -12751.79 |
+| Adams       | Michelle     | Midway                               | 80058            | 890.88   | -5494.70  |
+| Adkins      | Alex         | Midway                               | 183017           | 388.90   | -5979.55  |
+| Agee        | Dora         | Midway                               | 217452           | 3904.54  | -14341.64 |
+| Agnew       | Elizabeth    | Midway                               | 14634            | 3690.38  | -11210.38 |
+| Alarcon     | Victoria     | Midway                               | 228661           | 1528.68  | -12884.55 |
+| Alexander   | Eddie        | Midway                               | 69977            | 4091.75  | -23779.59 |
+| Alexander   | Terry        | Fairview                             | 230876           | 1517.67  | -10827.37 |
+| Alexander   |              | Midway                               | 136014           | 0.00     | -6066.08  |
+| Alicea      | Carrie       | Midway                               | 129038           | 0.00     | -16573.73 |
+| Allen       | Barbara      | Fairview                             | 26817            | 2492.38  | -13776.84 |
++-------------+--------------+--------------------------------------+------------------+----------+-----------+
+Query 80 returned 1 rows
+DataFrame()
++-----------------+------------------------------+----------+---------+-----------+
+| channel         | id                           | sales    | returns | profit    |
++-----------------+------------------------------+----------+---------+-----------+
+| catalog channel | catalog_pageAAAAAAAAAAPBAAAA | 9429.87  | 0.00    | -15357.45 |
+| catalog channel | catalog_pageAAAAAAAAABBCAAAA | 2112.48  | 0.00    | -800.35   |
+| catalog channel | catalog_pageAAAAAAAAABPBAAAA | 31147.33 | 0.00    | -2459.47  |
+| catalog channel | catalog_pageAAAAAAAAACBCAAAA | 1949.40  | 0.00    | 723.90    |
+| catalog channel | catalog_pageAAAAAAAAACPBAAAA | 18680.19 | 2119.26 | -18719.37 |
+| catalog channel | catalog_pageAAAAAAAAADPBAAAA | 30455.40 | 908.60  | 8010.43   |
+| catalog channel | catalog_pageAAAAAAAAAEPBAAAA | 24981.73 | 0.00    | 1617.00   |
+| catalog channel | catalog_pageAAAAAAAAAFPBAAAA | 5466.70  | 0.00    | -8074.72  |
+| catalog channel | catalog_pageAAAAAAAAAGBCAAAA | 8679.82  | 0.00    | -2615.72  |
+| catalog channel | catalog_pageAAAAAAAAAGPBAAAA | 22043.07 | 2711.57 | -2209.34  |
+| catalog channel | catalog_pageAAAAAAAAAHBCAAAA | 18023.06 | 744.48  | -279.79   |
+| catalog channel | catalog_pageAAAAAAAAAHPBAAAA | 10364.56 | 0.00    | 586.60    |
+| catalog channel | catalog_pageAAAAAAAAAIBCAAAA | 8576.78  | 997.30  | -576.11   |
+| catalog channel | catalog_pageAAAAAAAAAIPBAAAA | 19618.55 | 4110.12 | 4478.10   |
+| catalog channel | catalog_pageAAAAAAAAAJBCAAAA | 13706.66 | 0.00    | 1944.59   |
+| catalog channel | catalog_pageAAAAAAAAAJPBAAAA | 6676.33  | 0.00    | -1296.45  |
+| catalog channel | catalog_pageAAAAAAAAAKBCAAAA | 12663.87 | 2510.20 | 1382.76   |
+| catalog channel | catalog_pageAAAAAAAAAKPBAAAA | 3840.14  | 0.00    | -7368.17  |
+| catalog channel | catalog_pageAAAAAAAAALBCAAAA | 1932.84  | 0.00    | -5010.60  |
+| catalog channel | catalog_pageAAAAAAAAAMBCAAAA | 8611.26  | 0.00    | 3260.76   |
++-----------------+------------------------------+----------+---------+-----------+
+Query 81 returned 1 rows
+DataFrame()
++------------------+--------------+--------------+-------------+------------------+-----------------+----------------+-----------------+--------------+-------------------+----------+--------+---------------+---------------+------------------+------------------+
+| c_customer_id    | c_salutation | c_first_name | c_last_name | ca_street_number | ca_street_name  | ca_street_type | ca_suite_number | ca_city      | ca_county         | ca_state | ca_zip | ca_country    | ca_gmt_offset | ca_location_type | ctr_total_return |
++------------------+--------------+--------------+-------------+------------------+-----------------+----------------+-----------------+--------------+-------------------+----------+--------+---------------+---------------+------------------+------------------+
+| AAAAAAAAAADLAAAA |              |              |             | 251              | 7th             | RD             | Suite X         | Edgewood     | Cooke County      | TX       | 70069  | United States | -6.00         | condo            | 1774.03          |
+| AAAAAAAAAEMKAAAA | Mrs.         | Charlotte    | Harvey      | 342              | Green Madison   | Court          | Suite H         | Riverside    | Aransas County    | TX       | 79231  | United States | -6.00         | condo            | 3776.13          |
+| AAAAAAAAAENGBAAA | Mrs.         | Allyson      | Chavez      | 905              | Valley South    | Ave            | Suite L         | White Oak    | Crosby County     | TX       | 76668  | United States | -6.00         | single family    | 2440.92          |
+| AAAAAAAAAEPGBAAA | Dr.          | Pamela       | Connor      | 797              | Maple           | Ave            | Suite D         | Cedar Grove  | Kaufman County    | TX       | 70411  | United States | -6.00         | apartment        | 3220.02          |
+| AAAAAAAAAFCGAAAA | Mr.          | Jordan       | West        | 529              | Third Fourth    | Parkway        | Suite V         | Bethesda     | Orange County     | TX       | 75980  | United States | -6.00         | condo            | 1939.01          |
+| AAAAAAAAAGFFBAAA | Dr.          | Joe          | Rogers      | 374              | Seventh         | Ct.            | Suite 330       | Sunnyside    | Houston County    | TX       | 71952  | United States | -6.00         | apartment        | 2780.94          |
+| AAAAAAAAAGMKAAAA | Dr.          | Jerry        | Harris      | 155              | East            | Boulevard      | Suite Y         | Clifton      | Brown County      | TX       | 78014  | United States | -6.00         | apartment        | 9241.27          |
+| AAAAAAAAAGPGAAAA | Sir          | Joe          | Irving      | 262              | Sixth           | Blvd           | Suite 360       | Providence   | Martin County     | TX       | 76614  | United States | -6.00         | apartment        | 4618.25          |
+| AAAAAAAAAHHEBAAA | Mrs.         | Laura        | Kaufman     | 39               | 9th Woodland    | Boulevard      | Suite 390       | Walnut Grove | Refugio County    | TX       | 77752  | United States | -6.00         | condo            | 8621.05          |
+| AAAAAAAAAHNEBAAA | Dr.          | William      | Soto        | 163              | Park Highland   | Ct.            | Suite 60        | Union        | Donley County     | TX       | 78721  | United States | -6.00         | apartment        | 5151.03          |
+| AAAAAAAAAICHAAAA | Miss         | Zana         | Wright      | 102              | Sycamore        | Avenue         | Suite H         | Friendship   | Erath County      | TX       | 74536  | United States | -6.00         | condo            | 2835.73          |
+| AAAAAAAAAOAHAAAA | Dr.          |              |             | 563              | 13th 3rd        | RD             | Suite 140       | Forest Hills | Lampasas County   | TX       | 79237  | United States | -6.00         | apartment        | 2309.11          |
+| AAAAAAAAAOFCBAAA | Miss         | Lisa         | Painter     | 446              | Willow Lakeview | Pkwy           | Suite J         | Glenwood     | Lipscomb County   | TX       | 73511  | United States | -6.00         | single family    | 2775.93          |
+| AAAAAAAAAPNHBAAA | Sir          | Danny        | Todd        | 195              | 2nd             | Blvd           | Suite 130       | Whitesville  | Duval County      | TX       | 75903  | United States | -6.00         | single family    | 1720.12          |
+| AAAAAAAABAMCAAAA |              |              |             | 708              | Meadow Sycamore | Blvd           | Suite 160       | Bethel       | Tyler County      | TX       | 75281  | United States | -6.00         | apartment        | 5246.38          |
+| AAAAAAAABBAMAAAA | Dr.          | Katherine    | Wade        | 633              | First Lincoln   | Boulevard      | Suite 440       | Bunker Hill  | Zapata County     | TX       | 70150  | United States | -6.00         | apartment        | 4192.44          |
+| AAAAAAAABBAMAAAA | Dr.          | Katherine    | Wade        | 633              | First Lincoln   | Boulevard      | Suite 440       | Bunker Hill  | Zapata County     | TX       | 70150  | United States | -6.00         | apartment        | 5194.32          |
+| AAAAAAAABBDCBAAA | Sir          | Michael      | Rodriguez   | 33               | Fifth Jefferson | Dr.            | Suite 440       | Allentown    | Deaf Smith County | TX       | 71838  | United States | -6.00         | condo            | 4486.13          |
+| AAAAAAAABBLFAAAA | Mrs.         | Patsy        | Rudd        | 530              | Poplar          | RD             | Suite 210       | Springdale   | Orange County     | TX       | 78883  | United States | -6.00         | single family    | 2969.96          |
+| AAAAAAAABCNOAAAA | Mr.          | Eugene       | Martz       | 808              | View            | ST             | Suite 490       | Vienna       | Jack County       | TX       | 75119  | United States | -6.00         | condo            | 3231.94          |
++------------------+--------------+--------------+-------------+------------------+-----------------+----------------+-----------------+--------------+-------------------+----------+--------+---------------+---------------+------------------+------------------+
+Query 82 returned 1 rows
+DataFrame()
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| i_item_id        | i_item_desc                                                                                                                                                       | i_current_price |
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| AAAAAAAABMGDAAAA | Persiste                                                                                                                                                          | 72.60           |
+| AAAAAAAADNADAAAA | Very capable services compromise in a firms. Never prime firms scrape hardly. Troops may double however. Good, red houses s                                       | 91.62           |
+| AAAAAAAAEEMCAAAA | Thick, positive readers return in the explanations; police sell about perfect groups. Difficult, integrated motives would not allow here at a pubs. Ready marks b | 87.93           |
++------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+Query 83 returned 1 rows
+DataFrame()
++------------------+-------------+--------+-------------+--------+-------------+--------+--------------------+
+| item_id          | sr_item_qty | sr_dev | cr_item_qty | cr_dev | wr_item_qty | wr_dev | average            |
++------------------+-------------+--------+-------------+--------+-------------+--------+--------------------+
+| AAAAAAAAAGFDAAAA | 28          | 0.0    | 1           | 0.0    | 1           | 0.0    | 10.0               |
+| AAAAAAAAAMOAAAAA | 51          | 0.0    | 57          | 0.0    | 38          | 0.0    | 48.666666666666664 |
+| AAAAAAAACBFDAAAA | 29          | 0.0    | 29          | 0.0    | 5           | 0.0    | 21.0               |
+| AAAAAAAADJOCAAAA | 12          | 0.0    | 50          | 0.0    | 8           | 0.0    | 23.333333333333332 |
+| AAAAAAAAEDECAAAA | 10          | 0.0    | 60          | 0.0    | 32          | 0.0    | 34.0               |
+| AAAAAAAAEDHAAAAA | 114         | 0.0    | 50          | 0.0    | 44          | 0.0    | 69.33333333333333  |
+| AAAAAAAAEFOAAAAA | 89          | 0.0    | 1           | 0.0    | 20          | 0.0    | 36.666666666666664 |
+| AAAAAAAAEJEDAAAA | 9           | 0.0    | 53          | 0.0    | 38          | 0.0    | 33.333333333333336 |
+| AAAAAAAAFCIBAAAA | 56          | 0.0    | 2           | 0.0    | 22          | 0.0    | 26.666666666666668 |
+| AAAAAAAAFIMAAAAA | 10          | 0.0    | 61          | 0.0    | 72          | 0.0    | 47.666666666666664 |
+| AAAAAAAAGEADAAAA | 14          | 0.0    | 48          | 0.0    | 47          | 0.0    | 36.333333333333336 |
+| AAAAAAAAGHCBAAAA | 82          | 0.0    | 1           | 0.0    | 5           | 0.0    | 29.333333333333332 |
+| AAAAAAAAGMHAAAAA | 5           | 0.0    | 3           | 0.0    | 4           | 0.0    | 4.0                |
+| AAAAAAAAHCKDAAAA | 17          | 0.0    | 9           | 0.0    | 56          | 0.0    | 27.333333333333332 |
+| AAAAAAAAHJCBAAAA | 3           | 0.0    | 16          | 0.0    | 36          | 0.0    | 18.333333333333332 |
+| AAAAAAAAHJGDAAAA | 1           | 0.0    | 24          | 0.0    | 28          | 0.0    | 17.666666666666668 |
+| AAAAAAAAIKAEAAAA | 60          | 0.0    | 12          | 0.0    | 34          | 0.0    | 35.333333333333336 |
+| AAAAAAAAJDABAAAA | 32          | 0.0    | 24          | 0.0    | 9           | 0.0    | 21.666666666666668 |
+| AAAAAAAAKHNCAAAA | 89          | 0.0    | 5           | 0.0    | 7           | 0.0    | 33.666666666666664 |
+| AAAAAAAALHCCAAAA | 62          | 0.0    | 32          | 0.0    | 45          | 0.0    | 46.333333333333336 |
++------------------+-------------+--------+-------------+--------+-------------+--------+--------------------+
+Query 84 returned 1 rows
+DataFrame()
++------------------+-----------------+
+| customer_id      | customername    |
++------------------+-----------------+
+| AAAAAAAAAENGBAAA | Chavez, Allyson |
+| AAAAAAAAEFEBBAAA | Shepherd, Linda |
+| AAAAAAAAEGPDAAAA | Garcia, Rose    |
+| AAAAAAAAHJHBAAAA | Brewer, Richard |
+| AAAAAAAAHNFDAAAA | Gaskin, Helen   |
+| AAAAAAAAIIHCAAAA | Fisher, Helene  |
+| AAAAAAAAIJMGAAAA | Oakes, Joseph   |
+| AAAAAAAAJHACAAAA | Rose, Nancy     |
+| AAAAAAAAJNHAAAAA | Dixon, Nicole   |
+| AAAAAAAAKBGDAAAA | Bowen, Daniel   |
+| AAAAAAAALLHDBAAA | Patton, Walter  |
+| AAAAAAAAMBMEBAAA | Schmid, Leann   |
+| AAAAAAAAMPLMAAAA | Goodman, Betty  |
+| AAAAAAAANLHCAAAA | Greene, Vilma   |
+| AAAAAAAAPCOEAAAA | Jordan, Heather |
++------------------+-----------------+
+Query 85 returned 1 rows
+DataFrame()
++-------------------------------------------------+----------------------------+-----------------------------------+-------------------------+
+| substr(reason.r_reason_desc,Int64(1),Int64(20)) | avg(web_sales.ws_quantity) | avg(web_returns.wr_refunded_cash) | avg(web_returns.wr_fee) |
++-------------------------------------------------+----------------------------+-----------------------------------+-------------------------+
+| Stopped working                                 | 18.0                       | 29.150000                         | 57.690000               |
+| Wrong size                                      | 7.0                        | 29.240000                         | 14.810000               |
++-------------------------------------------------+----------------------------+-----------------------------------+-------------------------+
+Query 86 failed: External error: External error: This feature is not implemented: physical plan is not yet implemented for GROUPING aggregate function
+Query 87 returned 1 rows
+DataFrame()
++----------+
+| count(*) |
++----------+
+| 46449    |
++----------+
+Query 88 returned 1 rows
+DataFrame()
++------------+------------+-------------+--------------+--------------+--------------+--------------+--------------+
+| h8_30_to_9 | h9_to_9_30 | h9_30_to_10 | h10_to_10_30 | h10_30_to_11 | h11_to_11_30 | h11_30_to_12 | h12_to_12_30 |
++------------+------------+-------------+--------------+--------------+--------------+--------------+--------------+
+| 2518       | 4940       | 4874        | 8248         | 7435         | 4166         | 4425         | 5144         |
++------------+------------+-------------+--------------+--------------+--------------+--------------+--------------+
+Query 89 returned 1 rows
+DataFrame()
++------------+-----------+--------------------+--------------+----------------+-------+-----------+-------------------+
+| i_category | i_class   | i_brand            | s_store_name | s_company_name | d_moy | sum_sales | avg_monthly_sales |
++------------+-----------+--------------------+--------------+----------------+-------+-----------+-------------------+
+| Music      | classical | edu packscholar #2 | ation        | Unknown        | 3     | 3298.11   | 7507.714166       |
+| Music      | classical | edu packscholar #2 | ation        | Unknown        | 4     | 3550.86   | 7507.714166       |
+| Music      | classical | edu packscholar #2 | able         | Unknown        | 6     | 3755.79   | 7687.866666       |
+| Music      | classical | edu packscholar #2 | able         | Unknown        | 2     | 3757.45   | 7687.866666       |
+| Music      | classical | edu packscholar #2 | bar          | Unknown        | 6     | 3408.82   | 7242.218333       |
+| Music      | classical | edu packscholar #2 | eing         | Unknown        | 5     | 3720.76   | 7549.881666       |
+| Children   | infants   | importoexporti #2  | ese          | Unknown        | 3     | 3152.45   | 6935.281666       |
+| Music      | classical | edu packscholar #2 | ese          | Unknown        | 3     | 3692.96   | 7471.503333       |
+| Music      | classical | edu packscholar #2 | eing         | Unknown        | 7     | 3778.65   | 7549.881666       |
+| Children   | infants   | importoexporti #2  | bar          | Unknown        | 2     | 2986.60   | 6742.470000       |
+| Music      | classical | edu packscholar #2 | able         | Unknown        | 3     | 4025.28   | 7687.866666       |
+| Music      | classical | edu packscholar #2 | ation        | Unknown        | 2     | 3851.45   | 7507.714166       |
+| Music      | classical | edu packscholar #2 | ese          | Unknown        | 7     | 3845.77   | 7471.503333       |
+| Music      | classical | edu packscholar #2 | ation        | Unknown        | 5     | 3911.96   | 7507.714166       |
+| Music      | classical | edu packscholar #2 | eing         | Unknown        | 6     | 3960.74   | 7549.881666       |
+| Music      | classical | edu packscholar #2 | ought        | Unknown        | 7     | 4026.17   | 7600.460833       |
+| Music      | classical | edu packscholar #2 | ought        | Unknown        | 2     | 4084.60   | 7600.460833       |
+| Children   | infants   | importoexporti #2  | ation        | Unknown        | 4     | 3277.10   | 6753.103333       |
+| Children   | infants   | importoexporti #2  | able         | Unknown        | 2     | 3533.61   | 6888.245833       |
+| Music      | classical | edu packscholar #2 | bar          | Unknown        | 3     | 3889.22   | 7242.218333       |
++------------+-----------+--------------------+--------------+----------------+-------+-----------+-------------------+
+Query 90 returned 1 rows
+DataFrame()
++-------------+
+| am_pm_ratio |
++-------------+
+| 1.00000000  |
++-------------+
+Query 91 returned 1 rows
+DataFrame()
++------------------+------------------+--------------+--------------+
+| call_center      | call_center_name | manager      | returns_loss |
++------------------+------------------+--------------+--------------+
+| AAAAAAAABAAAAAAA | NY Metro         | Bob Belcher  | 3803.30      |
+| AAAAAAAAEAAAAAAA | North Midwest    | Larry Mccray | 3486.41      |
+| AAAAAAAAEAAAAAAA | North Midwest    | Larry Mccray | 490.38       |
++------------------+------------------+--------------+--------------+
+Query 92 returned 1 rows
+DataFrame()
++------------------------+
+| Excess Discount Amount |
++------------------------+
+|                        |
++------------------------+
+Query 93 returned 1 rows
+DataFrame()
++----------------+----------+
+| ss_customer_sk | sumsales |
++----------------+----------+
+| 159            | 0.00     |
+| 810            | 0.00     |
+| 960            | 0.00     |
+| 1138           | 0.00     |
+| 1165           | 0.00     |
+| 2538           | 0.00     |
+| 2723           | 0.00     |
+| 2955           | 0.00     |
+| 2958           | 0.00     |
+| 3124           | 0.00     |
+| 3167           | 0.00     |
+| 3270           | 0.00     |
+| 3303           | 0.00     |
+| 3451           | 0.00     |
+| 3660           | 0.00     |
+| 3849           | 0.00     |
+| 3993           | 0.00     |
+| 4125           | 0.00     |
+| 4262           | 0.00     |
+| 4495           | 0.00     |
++----------------+----------+
+Query 94 returned 1 rows
+DataFrame()
++-------------+---------------------+------------------+
+| order count | total shipping cost | total net profit |
++-------------+---------------------+------------------+
+| 10          | 11670.10            | 2179.34          |
++-------------+---------------------+------------------+
+Query 95 returned 1 rows
+DataFrame()
++-------------+---------------------+------------------+
+| order count | total shipping cost | total net profit |
++-------------+---------------------+------------------+
+| 3           | 17845.49            | 4454.26          |
++-------------+---------------------+------------------+
+Query 96 returned 1 rows
+DataFrame()
++----------+
+| count(*) |
++----------+
+| 950      |
++----------+
+Query 97 returned 1 rows
+DataFrame()
++------------+--------------+-------------------+
+| store_only | catalog_only | store_and_catalog |
++------------+--------------+-------------------+
+| 532651     | 285222       | 142               |
++------------+--------------+-------------------+
+Query 98 returned 1 rows
+DataFrame()
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+-------------+-----------------+-------------+--------------+
+| i_item_id        | i_item_desc                                                                                                                                                                       | i_category | i_class     | i_current_price | itemrevenue | revenueratio |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+-------------+-----------------+-------------+--------------+
+| AAAAAAAAAABBAAAA | Sides let essentially quite new materials. Sources must read now with the journals; sometimes financial supporters                                                                | Men        | accessories | 5.21            | 5135.95     | 0.429424     |
+| AAAAAAAAAAFDAAAA | Serious, respectable homes help po                                                                                                                                                | Men        | accessories | 3.14            | 3468.89     | 0.290039     |
+| AAAAAAAAABAAAAAA | Unquestionably different demands may not turn worldwide false, wide police. Satisfied, littl                                                                                      | Men        | accessories | 6.49            | 6268.53     | 0.524121     |
+| AAAAAAAAABOCAAAA | Common, scientific quantities need once once southern reasons. Societies leap less. Little, legal readers move english, particular cells. Emp                                     | Men        | accessories | 3.68            | 3344.58     | 0.279645     |
+| AAAAAAAAACBEAAAA | Powerful occasions used to tackle plans; tough things could perform certainly children. Administrative, useful pr                                                                 | Men        | accessories | 3.33            | 6238.88     | 0.521642     |
+| AAAAAAAAACCDAAAA | Under little conditions will jump drivers. Raw millions exploit well too little dogs. Theoretical in                                                                              | Men        | accessories | 4.09            | 5684.31     | 0.475274     |
+| AAAAAAAAACGAAAAA | Other, likely eyes call thoroughly english others. Grounds think more initially friendly forms. Responsible minutes would use as. Present, individual sit                         | Men        | accessories | 6.86            | 1390.46     | 0.116258     |
+| AAAAAAAAADAEAAAA | Residential, executive recommendations must not stop also teenage feet. Currently shallow foods shall give just as a whole blue                                                   | Men        | accessories | 4.20            | 1519.70     | 0.127064     |
+| AAAAAAAAAEDAAAAA | Modern farmers decide wild, usual efforts. Great needs matter without the communities; levels might abandon on a pa                                                               | Men        | accessories | 87.37           | 578.82      | 0.048396     |
+| AAAAAAAAAEJDAAAA | Stars provide long. Difficu                                                                                                                                                       | Men        | accessories | 8.56            | 18531.36    | 1.549436     |
+| AAAAAAAAAFBBAAAA | Sufficient priorities ought to calm greatly great aspirations; waiting studies start just total artists. Minutes might include free centuries. Images make                        | Men        | accessories | 2.08            | 11489.67    | 0.960669     |
+| AAAAAAAAAFHBAAAA | Nuclear nations need slowly. Good cars prevail finally into a databases; therefore active workers go over much s                                                                  | Men        | accessories | 4.68            | 1695.21     | 0.141739     |
+| AAAAAAAAAFIAAAAA | Early, wide jobs cry key curtains; soviet, local minutes cannot attract national children. Ideal officials may like highly changes. In a                                          | Men        | accessories | 3.67            | 11647.05    | 0.973828     |
+| AAAAAAAAAGBEAAAA | Obvious, local economies buy on a ways. So public chains offer still early photographs; links should reduce twice parents. Oth                                                    | Men        | accessories | 3.42            | 9588.80     | 0.801734     |
+| AAAAAAAAAGKDAAAA | Entirely sympathetic forces might go physical, commercial materials. Good lights change shortly to a times. Sensitive lives pass at all on a pupils. Interesting, able difference | Men        | accessories | 4.93            | 1768.10     | 0.147833     |
+| AAAAAAAAAHCCAAAA | Machines get. Political, poor disciplines live then political ways. Legal,                                                                                                        | Men        | accessories | 0.52            | 43.68       | 0.003652     |
+| AAAAAAAAAJIDAAAA | Economic lines must work just defensive qualifications. Members                                                                                                                   | Men        | accessories | 7.92            | 2190.97     | 0.183190     |
+| AAAAAAAAAJPBAAAA | A little open women should not say easily human married players. Years could know for the principles. Formal men show much so unexp                                               | Men        | accessories | 2.76            | 2843.24     | 0.237727     |
+| AAAAAAAAALCAAAAA | Male clergy used to get. Remotely tall funds might come independent women. Th                                                                                                     | Men        | accessories | 2.07            | 13854.04    | 1.158358     |
+| AAAAAAAAALIBAAAA | Easy, respectable things take totally similar areas. Intelligent, tough policies could not take now inner, specific terms. Inadequ                                                | Men        | accessories | 4.81            | 3675.64     | 0.307326     |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+-------------+-----------------+-------------+--------------+
+Query 99 returned 1 rows
+DataFrame()
++-------------------------------------------------------+-----------+---------------+---------+------------+------------+-------------+-----------+
+| substr(warehouse.w_warehouse_name,Int64(1),Int64(20)) | sm_type   | cc_name       | 30 days | 31-60 days | 61-90 days | 91-120 days | >120 days |
++-------------------------------------------------------+-----------+---------------+---------+------------+------------+-------------+-----------+
+| Conventional childr                                   | EXPRESS   | Mid Atlantic  | 1267    | 1327       | 1250       | 0           | 0         |
+| Conventional childr                                   | EXPRESS   | NY Metro      | 1269    | 1263       | 1266       | 0           | 0         |
+| Conventional childr                                   | EXPRESS   | North Midwest | 1173    | 1253       | 1342       | 0           | 0         |
+| Conventional childr                                   | LIBRARY   | Mid Atlantic  | 940     | 952        | 950        | 0           | 0         |
+| Conventional childr                                   | LIBRARY   | NY Metro      | 944     | 958        | 951        | 0           | 0         |
+| Conventional childr                                   | LIBRARY   | North Midwest | 930     | 910        | 958        | 0           | 0         |
+| Conventional childr                                   | NEXT DAY  | Mid Atlantic  | 1231    | 1246       | 1335       | 0           | 0         |
+| Conventional childr                                   | NEXT DAY  | NY Metro      | 1239    | 1236       | 1268       | 0           | 0         |
+| Conventional childr                                   | NEXT DAY  | North Midwest | 1245    | 1268       | 1364       | 0           | 0         |
+| Conventional childr                                   | OVERNIGHT | Mid Atlantic  | 878     | 961        | 934        | 0           | 0         |
+| Conventional childr                                   | OVERNIGHT | NY Metro      | 965     | 956        | 954        | 0           | 0         |
+| Conventional childr                                   | OVERNIGHT | North Midwest | 932     | 996        | 1018       | 0           | 0         |
+| Conventional childr                                   | REGULAR   | Mid Atlantic  | 975     | 931        | 991        | 0           | 0         |
+| Conventional childr                                   | REGULAR   | NY Metro      | 910     | 970        | 930        | 0           | 0         |
+| Conventional childr                                   | REGULAR   | North Midwest | 964     | 953        | 934        | 0           | 0         |
+| Conventional childr                                   | TWO DAY   | Mid Atlantic  | 924     | 919        | 989        | 0           | 0         |
+| Conventional childr                                   | TWO DAY   | NY Metro      | 847     | 950        | 968        | 0           | 0         |
+| Conventional childr                                   | TWO DAY   | North Midwest | 953     | 949        | 956        | 0           | 0         |
+| Of course ot                                          | EXPRESS   | Mid Atlantic  | 1194    | 1274       | 1263       | 0           | 0         |
+| Of course ot                                          | EXPRESS   | NY Metro      | 1228    | 1293       | 1343       | 0           | 0         |
++-------------------------------------------------------+-----------+---------------+---------+------------+------------+-------------+-----------+
+Query 1 failed: DataFusion error: NotImplemented("The context requires a statement!")
